@@ -1,0 +1,10 @@
+[
+  {
+    "id": "paper1",
+    "label": "CBSE Class 10 Mock Paper 1",
+    "tier": "Competitive Entrance",
+    "desc": "Full-length paper covering Mathematics, Physics, Chemistry, and Biology with case studies and SVG diagrams.",
+    "color": "#1a56db",
+    "file": "papers/paper1.json"
+  }
+]
