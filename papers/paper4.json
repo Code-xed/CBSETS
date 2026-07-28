@@ -6,7 +6,7 @@
       "q": "<b>Case-Based Scenario:</b> A spherical water tank has an inlet pipe and an outlet setup. Engineers model the water level changes using quadratic paths. If the polynomial representing the depth of water over time (in hours) is given by p(x) = x&sup2; &minus; 9x + 20, at what specific time intervals is the water level zero (completely empty or baseline)?",
       "o": [
         "x = 2 and x = 3",
-        "x = 4 and x = 5",
+        "x = 4 and umm x = 5",
         "x = &minus;4 and x = &minus;5",
         "x = 1 and x = 20"
       ],
