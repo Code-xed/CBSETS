@@ -1,0 +1,42 @@
+{
+  "title": "CBSE Class 10 Mathematics & Science Mock Paper 1",
+  "tier": "Competitive Entrance",
+  "math": [
+    {
+      "q": "If the HCF of 65 and 117 is expressible as 65m &minus; 117, the value of m is:",
+      "o": ["2", "1", "4", "3"],
+      "a": 0,
+      "e": "HCF(65,117) = 13. So 65m &minus; 117 = 13 &rarr; 65m = 130 &rarr; m = 2."
+    },
+    {
+      "q": "The sum of first n terms of an AP is 3n&sup2; + 5n. The 4th term is:",
+      "o": ["29", "32", "26", "23"],
+      "a": 2,
+      "e": "a4 = S4 &minus; S3 = (3 &times; 16 + 20) &minus; (3 &times; 9 + 15) = 68 &minus; 42 = 26."
+    }
+  ],
+  "phy": [
+    {
+      "q": "<b>SVG Diagram Example:</b><br><svg viewBox='0 0 120 40' width='140'><line x1='10' y1='20' x2='110' y2='20' stroke='#000' stroke-width='2'/><rect x='45' y='10' width='30' height='20' fill='#fff' stroke='#000'/><text x='52' y='25' font-size='10'>R</text></svg><br>A 4&Omega; and 6&Omega; resistor are connected in parallel, and this combination is connected in series with a 2&Omega; resistor. The total resistance of the circuit is:",
+      "o": ["6 &Omega;", "10 &Omega;", "2.4 &Omega;", "4.4 &Omega;"],
+      "a": 3,
+      "e": "Parallel: (4 &times; 6) / (4 + 6) = 2.4&Omega;. Series with 2&Omega;: 2.4 + 2 = 4.4&Omega;."
+    }
+  ],
+  "chem": [
+    {
+      "q": "On heating, 50g of calcium carbonate (CaCO&sub3;) decomposes completely into CaO and CO&sub2;. The mass of CaO produced is (molar masses: CaCO&sub3;=100, CaO=56):",
+      "o": ["56 g", "50 g", "22 g", "28 g"],
+      "a": 3,
+      "e": "Moles of CaCO&sub3; = 50/100 = 0.5. CaCO&sub3; &rarr; CaO + CO&sub2; (1:1 ratio). Mass of CaO = 0.5 &times; 56 = 28g."
+    }
+  ],
+  "bio": [
+    {
+      "q": "In human beings, the process of digestion of starch begins in the mouth due to the enzyme:",
+      "o": ["Trypsin", "Salivary amylase", "Lipase", "Pepsin"],
+      "a": 1,
+      "e": "Salivary amylase (ptyalin), present in saliva, begins the breakdown of starch into maltose in the mouth."
+    }
+  ]
+}
