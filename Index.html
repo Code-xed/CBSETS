@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="theme-color" content="#0f2644">
+<title>CBSE Class 10 Mock Test Series</title>
+<style>
+:root{
+  --bg:#eef2f7;--surface:#fff;--navy:#0f2644;--deep:#0a1a35;
+  --gold:#e6a817;--teal:#0d6e6e;
+  --border:#cdd5e0;--text:#1a2535;--muted:#6b7a8d;
+  --correct:#16a34a;--wrong:#dc2626;
+  --exp-bg:#f0fdf4;--exp-border:#86efac;
+  --skip-bg:#fffbeb;--skip-border:#fcd34d;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:'Segoe UI',system-ui,sans-serif;font-size:14px;min-height:100vh}
+.home-hero{background:linear-gradient(160deg,var(--deep) 0%,#1a3a6b 100%);padding:36px 20px 24px;text-align:center}
+.hero-badge{display:inline-block;font-size:10px;letter-spacing:3px;text-transform:uppercase;color:var(--gold);border:1px solid rgba(230,168,23,.4);border-radius:20px;padding:4px 14px;margin-bottom:12px}
+.hero-title{font-size:clamp(20px,6vw,26px);font-weight:900;color:#fff;line-height:1.3;margin-bottom:6px}
+.hero-title span{color:var(--gold)}
+.hero-sub{font-size:12px;color:rgba(255,255,255,.65);margin-bottom:14px}
+.hero-chips{display:flex;flex-wrap:wrap;justify-content:center;gap:7px}
+.chip{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2);border-radius:20px;padding:4px 12px;font-size:10px;color:rgba(255,255,255,.85)}
+.home-body{padding:16px 14px;max-width:600px;margin:0 auto}
+.paper-card{background:var(--surface);border:1px solid var(--border);border-left:5px solid var(--card-color,var(--gold));border-radius:10px;padding:14px 16px;margin-bottom:12px;cursor:pointer;transition:transform .12s}
+.paper-card:active{transform:scale(.98)}
+.pc-top{display:flex;justify-content:space-between;align-items:flex-start;gap:8px}
+.pc-label{font-size:15px;font-weight:800;color:var(--navy)}
+.pc-tier{display:inline-block;font-size:9px;font-weight:700;letter-spacing:.5px;text-transform:uppercase;padding:3px 9px;border-radius:12px;color:#fff;background:var(--card-color,var(--gold));margin-top:4px}
+.pc-arrow{font-size:18px;color:var(--card-color,var(--gold));font-weight:900}
+.pc-desc{font-size:11.5px;color:var(--muted);margin-top:6px;line-height:1.5}
+.info-box{background:var(--surface);border:1px solid var(--border);border-left:4px solid var(--gold);border-radius:8px;padding:12px 14px;margin:14px 0}
+.info-box h3{font-size:11px;font-weight:700;color:var(--navy);margin-bottom:7px;text-transform:uppercase;letter-spacing:.5px}
+.info-row{display:flex;align-items:center;gap:8px;font-size:12px;color:var(--muted);margin-bottom:4px}
+.idot{width:6px;height:6px;border-radius:50%;background:var(--gold);flex-shrink:0}
+#test-screen{display:none;flex-direction:column;min-height:100vh}
+.sticky-hdr{position:sticky;top:0;z-index:200;background:var(--navy);box-shadow:0 2px 14px rgba(0,0,0,.3)}
+.hdr-row{display:flex;align-items:center;gap:9px;padding:8px 13px;flex-wrap:wrap}
+.back-btn{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.25);color:#fff;border-radius:6px;padding:6px 10px;font-size:11px;cursor:pointer;font-family:inherit}
+.hdr-titles{flex:1;min-width:0}
+.hdr-t{font-weight:800;font-size:13px;color:#fff}
+.hdr-s{font-size:9px;color:var(--gold);letter-spacing:1.5px}
+.timer-box{background:rgba(255,255,255,.08);border:1.5px solid var(--gold);border-radius:7px;padding:4px 12px;text-align:center;flex-shrink:0}
+.tlbl{font-size:8px;color:var(--gold);letter-spacing:2px;text-transform:uppercase;display:block;font-family:monospace}
+.tval{font-size:19px;font-weight:700;color:#fff;letter-spacing:2px;font-family:monospace;display:block}
+.tval.warn{color:#fbbf24}.tval.danger{color:#f87171;animation:blink 1s infinite}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.3}}
+.prog-bar{height:3px;background:rgba(255,255,255,.1)}
+.prog-fill{height:100%;background:linear-gradient(90deg,var(--teal),var(--gold));transition:width 1s linear}
+.stats-strip{display:flex;background:var(--surface);border-bottom:2px solid var(--border)}
+.ss{flex:1;text-align:center;padding:7px 2px;border-right:1px solid var(--border)}
+.ss:last-child{border-right:none}
+.ss-v{font-weight:800;font-size:13px;display:block;color:var(--navy)}
+.ss-l{font-size:8px;color:var(--muted);letter-spacing:1px;text-transform:uppercase;display:block;margin-top:1px}
+.instr-box{margin:10px 11px;background:#fffbf0;border:1px solid #e5d9a0;border-left:4px solid var(--gold);border-radius:6px;padding:10px 13px}
+.instr-box h3{font-size:10px;font-weight:700;color:var(--navy);margin-bottom:5px;text-transform:uppercase;letter-spacing:.5px}
+.instr-box ol{padding-left:15px;font-size:11.5px;color:#374151;line-height:1.85}
+.instr-box b{color:var(--wrong)}
+.sec-hdr{margin:12px 11px 0;border-radius:8px 8px 0 0;padding:11px 15px;display:flex;align-items:center;justify-content:space-between}
+.sec-name{font-size:16px;font-weight:800;color:#fff}
+.sec-meta{font-family:monospace;font-size:10px;color:rgba(255,255,255,.7);letter-spacing:1px}
+.q-block{margin:0 11px 7px;background:var(--surface);border:1px solid var(--border);border-top:none;border-radius:0 0 8px 8px;padding:4px 0 12px}
+.question{padding:12px 13px 10px;border-bottom:1px solid #f0f4f8}
+.question:last-child{border-bottom:none}
+.q-row{display:flex;gap:9px;align-items:flex-start}
+.q-num{font-family:monospace;font-size:10px;font-weight:700;background:var(--bg);border:1px solid var(--border);border-radius:3px;padding:2px 6px;flex-shrink:0;color:var(--muted);margin-top:2px}
+.q-text{font-size:13.5px;line-height:1.65;flex:1;overflow-x:auto;}
+.q-text svg { max-width: 100%; height: auto; display: block; margin: 10px 0; background: #fafcff; border: 1px solid #e2e8f0; border-radius: 6px; }
+.opts{display:grid;grid-template-columns:1fr 1fr;gap:5px;margin-top:9px;padding-left:28px}
+@media(max-width:420px){.opts{grid-template-columns:1fr}}
+.opt{display:flex;align-items:flex-start;gap:7px;padding:7px 9px;border:1.5px solid #dde5ef;border-radius:6px;cursor:pointer;transition:all .12s;background:#fafcff;font-size:13px;user-select:none;line-height:1.4}
+.opt:active{transform:scale(.98)}
+.opt:hover:not(.submitted){border-color:var(--gold);background:#fffbf0}
+.opt.sel{border-color:var(--navy);background:#eef3ff}
+.opt.correct{border-color:var(--correct)!important;background:var(--exp-bg)!important}
+.opt.wrong{border-color:var(--wrong)!important;background:#fff1f0!important}
+.opt.skipped-correct{border-color:var(--skip-border)!important;background:var(--skip-bg)!important}
+.opt-lbl{font-family:monospace;font-size:10px;font-weight:700;color:var(--muted);flex-shrink:0;margin-top:1px}
+.opt-icon{font-size:12px;margin-left:auto;flex-shrink:0;margin-top:1px}
+.explanation{display:none;margin:8px 28px 4px;padding:10px 12px;background:var(--exp-bg);border:1px solid var(--exp-border);border-radius:6px;font-size:12px;line-height:1.7;color:#166534}
+.explanation.skipped{background:var(--skip-bg);border-color:var(--skip-border);color:#92400e}
+.explanation.show{display:block}
+.exp-label{font-weight:700;font-size:10px;letter-spacing:1px;text-transform:uppercase;margin-bottom:4px;display:block}
+.ctrl{display:flex;gap:9px;justify-content:center;margin:16px 11px;flex-wrap:wrap}
+.btn{font-size:11px;letter-spacing:1px;text-transform:uppercase;padding:11px 26px;border:none;border-radius:6px;cursor:pointer;font-weight:700;font-family:inherit}
+.btn-sub{background:var(--navy);color:var(--gold);border:2px solid var(--gold)}
+.btn-sub:hover{background:var(--gold);color:var(--navy)}
+.btn-rst{background:transparent;color:var(--muted);border:2px solid var(--border)}
+.result{display:none;margin:13px 11px 20px;background:var(--navy);border:2px solid var(--gold);border-radius:12px;padding:22px 18px;text-align:center;color:#fff}
+.result.show{display:block}
+.r-score{font-size:52px;font-weight:900;color:var(--gold);line-height:1}
+.r-outof{font-size:14px;color:rgba(255,255,255,.45);margin-bottom:16px}
+.r-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:9px;margin-bottom:12px}
+@media(min-width:380px){.r-grid{grid-template-columns:repeat(4,1fr)}}
+.r-card{background:rgba(255,255,255,.07);border:1px solid rgba(230,168,23,.2);border-radius:7px;padding:10px 7px}
+.rc-l{font-size:8px;letter-spacing:2px;color:var(--gold);text-transform:uppercase;font-family:monospace}
+.rc-v{font-size:20px;font-weight:800;margin-top:3px}
+.r-break{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin-bottom:12px}
+.rb{background:rgba(255,255,255,.05);border-radius:6px;padding:9px}
+.rb-l{font-size:9px;color:rgba(255,255,255,.45);letter-spacing:1px;font-family:monospace}
+.rb-v{font-size:16px;font-weight:700;margin-top:2px}
+.r-verdict{font-style:italic;font-size:13px;color:#fde68a;line-height:1.5;margin-bottom:14px;padding:10px;background:rgba(255,255,255,.05);border-radius:6px}
+.r-btns{display:flex;gap:8px;justify-content:center;flex-wrap:wrap}
+.r-btn{padding:9px 20px;border-radius:6px;border:none;cursor:pointer;font-size:11px;font-weight:700;letter-spacing:.5px;font-family:inherit}
+.r-btn-retry{background:var(--gold);color:var(--navy)}
+.r-btn-home{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.3)}
+</style>
+</head>
+<body>
+
+<div id="home">
+  <div class="home-hero">
+    <div class="hero-badge">CBSE Class 10</div>
+    <div class="hero-title">Mock Test <span>Series Portal</span></div>
+    <div class="hero-sub">Select a Paper to Begin Assessment</div>
+  </div>
+  <div class="home-body">
+    <div id="paper-list">Loading papers...</div>
+  </div>
+</div>
+
+<div id="test-screen">
+  <div class="sticky-hdr">
+    <div class="hdr-row">
+      <button class="back-btn" onclick="goHome()">&larr; Papers</button>
+      <div class="hdr-titles">
+        <div class="hdr-t" id="hdr-title">CAE Mock Test</div>
+        <div class="hdr-s" id="hdr-sub">CLASS X · PATTERN</div>
+      </div>
+      <div class="timer-box">
+        <span class="tlbl">Time Left</span>
+        <span class="tval" id="timer">2:30:00</span>
+      </div>
+    </div>
+    <div class="prog-bar"><div class="prog-fill" id="prog" style="width:100%"></div></div>
+  </div>
+
+  <div class="stats-strip">
+    <div class="ss"><span class="ss-v" id="ct-t">0</span><span class="ss-l">Done</span></div>
+    <div class="ss"><span class="ss-v" id="ct-m">0/0</span><span class="ss-l">Maths</span></div>
+    <div class="ss"><span class="ss-v" id="ct-p">0/0</span><span class="ss-l">Physics</span></div>
+    <div class="ss"><span class="ss-v" id="ct-c">0/0</span><span class="ss-l">Chem</span></div>
+    <div class="ss"><span class="ss-v" id="ct-b">0/0</span><span class="ss-l">Bio</span></div>
+  </div>
+
+  <div class="instr-box">
+    <h3>Instructions</h3>
+    <ol>
+      <li><b>+1 correct</b> &middot; <b>&minus;0.2 wrong</b> &middot; 0 skipped &middot; Tap the same option again to deselect</li>
+      <li>Scroll through all sections, then tap Submit when ready</li>
+    </ol>
+  </div>
+
+  <div class="sec-hdr" style="background:linear-gradient(135deg,#1a2f6b,#1a56db)"><span class="sec-name">Mathematics</span><span class="sec-meta" id="meta-math">Section</span></div>
+  <div class="q-block" id="blk-math"></div>
+
+  <div class="sec-hdr" style="background:linear-gradient(135deg,#0a4a4a,#0d6e6e)"><span class="sec-name">Physics</span><span class="sec-meta" id="meta-phy">Section</span></div>
+  <div class="q-block" id="blk-phy"></div>
+
+  <div class="sec-hdr" style="background:linear-gradient(135deg,#0a3d1f,#1a7a4a)"><span class="sec-name">Chemistry</span><span class="sec-meta" id="meta-chem">Section</span></div>
+  <div class="q-block" id="blk-chem"></div>
+
+  <div class="sec-hdr" style="background:linear-gradient(135deg,#3b1a6b,#6c3483)"><span class="sec-name">Biology</span><span class="sec-meta" id="meta-bio">Section</span></div>
+  <div class="q-block" id="blk-bio"></div>
+
+  <div class="ctrl">
+    <button class="btn btn-sub" onclick="submitTest()">Submit Test</button>
+    <button class="btn btn-rst" onclick="resetTest()">Reset</button>
+  </div>
+
+  <div class="result" id="result">
+    <div class="r-score" id="r-sc">0</div>
+    <div class="r-outof" id="r-outof">out of 0</div>
+    <div class="r-grid">
+      <div class="r-card"><div class="rc-l">Correct</div><div class="rc-v" id="r-cor" style="color:#4ade80">0</div></div>
+      <div class="r-card"><div class="rc-l">Wrong</div><div class="rc-v" id="r-wrg" style="color:#f87171">0</div></div>
+      <div class="r-card"><div class="rc-l">Skipped</div><div class="rc-v" id="r-skp" style="color:#fbbf24">0</div></div>
+      <div class="r-card"><div class="rc-l">Accuracy</div><div class="rc-v" id="r-acc">0%</div></div>
+    </div>
+    <div class="r-break">
+      <div class="rb"><div class="rb-l">MATHS SCORE</div><div class="rb-v" id="r-ms">0</div></div>
+      <div class="rb"><div class="rb-l">SCIENCE SCORE</div><div class="rb-v" id="r-ss">0</div></div>
+    </div>
+    <div class="r-verdict" id="r-vrd"></div>
+    <div class="r-btns">
+      <button class="r-btn r-btn-retry" onclick="resetTest()">Retry Test</button>
+      <button class="r-btn r-btn-home" onclick="goHome()">Choose Another Paper</button>
+    </div>
+  </div>
+</div>
+
+<script>
+let activeQ = null, ans = {}, submitted = false, timeLeft = 9000, tiv = null;
+const TOTAL_T = 9000;
+
+// Fetch the test index manifest on load
+async function initHome() {
+  try {
+    const res = await fetch('tests.json');
+    const papers = await res.json();
+    const list = document.getElementById('paper-list');
+    list.innerHTML = '';
+    
+    papers.forEach(p => {
+      const d = document.createElement('div');
+      d.className = 'paper-card';
+      d.style.setProperty('--card-color', p.color || '#e6a817');
+      d.onclick = () => loadPaper(p.file);
+      d.innerHTML = `
+        <div class="pc-top">
+          <div><div class="pc-label">${p.label}</div><div class="pc-tier">${p.tier}</div></div>
+          <div class="pc-arrow">&rarr;</div>
+        </div>
+        <div class="pc-desc">${p.desc}</div>`;
+      list.appendChild(d);
+    });
+  } catch (err) {
+    document.getElementById('paper-list').innerHTML = '<p style="color:red; text-align:center;">Failed to load tests.json manifest. Make sure it is hosted properly.</p>';
+  }
+}
+initHome();
+
+async function loadPaper(jsonFile) {
+  try {
+    const res = await fetch(jsonFile);
+    activeQ = await res.json();
+    startTest();
+  } catch(err) {
+    alert('Could not load test question file: ' + jsonFile);
+  }
+}
+
+function startTest(){
+  ans = {}; submitted = false; timeLeft = TOTAL_T;
+  document.getElementById('home').style.display = 'none';
+  const ts = document.getElementById('test-screen');
+  ts.style.display = 'flex'; ts.style.flexDirection = 'column';
+  document.getElementById('hdr-title').textContent = activeQ.title || 'Mock Test';
+  document.getElementById('hdr-sub').textContent = (activeQ.tier || 'CLASS X').toUpperCase();
+  document.getElementById('result').classList.remove('show');
+  
+  renderAll();
+  updateCounts();
+  startTimer();
+  window.scrollTo(0,0);
+}
+
+function goHome(){
+  clearInterval(tiv);
+  document.getElementById('test-screen').style.display = 'none';
+  document.getElementById('home').style.display = 'block';
+  window.scrollTo(0,0);
+}
+
+function renderAll(){
+  renderSec(activeQ.math || [], 'blk-math', 'meta-math', 1);
+  const mathLen = (activeQ.math || []).length;
+  renderSec(activeQ.phy || [], 'blk-phy', 'meta-phy', mathLen + 1);
+  const phyLen = mathLen + (activeQ.phy || []).length;
+  renderSec(activeQ.chem || [], 'blk-chem', 'meta-chem', phyLen + 1);
+  const chemLen = phyLen + (activeQ.chem || []).length;
+  renderSec(activeQ.bio || [], 'blk-bio', 'meta-bio', chemLen + 1);
+}
+
+function renderSec(qs, cid, metaId, start){
+  const el = document.getElementById(cid);
+  const metaEl = document.getElementById(metaId);
+  if(metaEl) metaEl.textContent = `Q${start}–Q${start + qs.length - 1}`;
+  el.innerHTML = '';
+  
+  qs.forEach((q, i) => {
+    const n = start + i;
+    const d = document.createElement('div');
+    d.className = 'question';
+    d.innerHTML = `<div class="q-row"><span class="q-num">Q${n}</span><span class="q-text">${q.q}</span></div>` +
+    `<div class="opts" id="opts-${cid}-${i}">` +
+    q.o.map((op, oi) => `<div class="opt" id="o-${cid}-${i}-${oi}" onclick="pick('${cid}',${i},${oi})">` +
+    `<span class="opt-lbl">${['A','B','C','D'][oi]}</span><span>${op}</span><span class="opt-icon" id="ic-${cid}-${i}-${oi}"></span></div>`).join('') +
+    `</div><div class="explanation" id="exp-${cid}-${i}"></div>`;
+    el.appendChild(d);
+  });
+}
+
+function pick(sec, qi, oi){
+  if(submitted) return;
+  const k = `${sec}-${qi}`;
+  const prev = ans[k];
+  if(prev !== undefined) document.getElementById(`o-${sec}-${qi}-${prev}`)?.classList.remove('sel');
+  if(prev === oi){ delete ans[k]; }
+  else { ans[k] = oi; document.getElementById(`o-${sec}-${qi}-${oi}`)?.classList.add('sel'); }
+  updateCounts();
+}
+
+function updateCounts(){
+  const keys = Object.keys(ans);
+  const mLen = (activeQ.math || []).length;
+  const pLen = (activeQ.phy || []).length;
+  const cLen = (activeQ.chem || []).length;
+  const bLen = (activeQ.bio || []).length;
+  const total = mLen + pLen + cLen + bLen;
+  
+  document.getElementById('ct-t').textContent = keys.length;
+  document.getElementById('ct-m').textContent = keys.filter(k => k.startsWith('blk-math')).length + '/' + mLen;
+  document.getElementById('ct-p').textContent = keys.filter(k => k.startsWith('blk-phy')).length + '/' + pLen;
+  document.getElementById('ct-c').textContent = keys.filter(k => k.startsWith('blk-chem')).length + '/' + cLen;
+  document.getElementById('ct-b').textContent = keys.filter(k => k.startsWith('blk-bio')).length + '/' + bLen;
+}
+
+function submitTest(){
+  if(submitted) return;
+  submitted = true; clearInterval(tiv);
+  const secs = {
+    math: {qs: activeQ.math || [], id: 'blk-math'},
+    phy: {qs: activeQ.phy || [], id: 'blk-phy'},
+    chem: {qs: activeQ.chem || [], id: 'blk-chem'},
+    bio: {qs: activeQ.bio || [], id: 'blk-bio'}
+  };
+  let cor = 0, wrg = 0, skp = 0, mC = 0, mW = 0, pC = 0, cC = 0, bC = 0, sW = 0;
+  let totalQs = (activeQ.math||[]).length + (activeQ.phy||[]).length + (activeQ.chem||[]).length + (activeQ.bio||[]).length;
+
+  Object.entries(secs).forEach(([sn, sv]) => {
+    sv.qs.forEach((item, i) => {
+      const k = `${sv.id}-${i}`;
+      const ch = ans[k];
+      const ca = item.a;
+      const expEl = document.getElementById(`exp-${sv.id}-${i}`);
+      for(let oi = 0; oi < 4; oi++){
+        document.getElementById(`o-${sv.id}-${i}-${oi}`)?.classList.add('submitted');
+      }
+      if(ch === undefined){
+        skp++;
+        const correctOpt = document.getElementById(`o-${sv.id}-${i}-${ca}`);
+        if(correctOpt){
+          correctOpt.classList.add('skipped-correct');
+          document.getElementById(`ic-${sv.id}-${i}-${ca}`).textContent = '\u2605';
+        }
+        if(expEl){
+          expEl.innerHTML = `<span class="exp-label">Skipped &mdash; Correct Answer: ${['A','B','C','D'][ca]}</span>${item.e}`;
+          expEl.classList.add('show','skipped');
+        }
+      } else if(ch === ca){
+        cor++;
+        if(sn === 'math') mC++; else if(sn === 'phy') pC++; else if(sn === 'chem') cC++; else bC++;
+        const elx = document.getElementById(`o-${sv.id}-${i}-${ch}`);
+        elx?.classList.remove('sel'); elx?.classList.add('correct');
+        document.getElementById(`ic-${sv.id}-${i}-${ch}`).textContent = '\u2713';
+        if(expEl){
+          expEl.innerHTML = `<span class="exp-label">Correct &mdash; ${['A','B','C','D'][ca]}</span>${item.e}`;
+          expEl.classList.add('show');
+        }
+      } else {
+        wrg++;
+        if(sn === 'math') mW++; else sW++;
+        const wrongEl = document.getElementById(`o-${sv.id}-${i}-${ch}`);
+        wrongEl?.classList.remove('sel'); wrongEl?.classList.add('wrong');
+        document.getElementById(`ic-${sv.id}-${i}-${ch}`).textContent = '\u2717';
+        const correctEl = document.getElementById(`o-${sv.id}-${i}-${ca}`);
+        correctEl?.classList.add('correct');
+        document.getElementById(`ic-${sv.id}-${i}-${ca}`).textContent = '\u2713';
+        if(expEl){
+          expEl.innerHTML = `<span class="exp-label">Wrong &mdash; Correct Answer: ${['A','B','C','D'][ca]}</span>${item.e}`;
+          expEl.classList.add('show');
+        }
+      }
+    });
+  });
+
+  const score = (cor - (wrg * 0.2)).toFixed(2);
+  const acc = cor + wrg > 0 ? Math.round(cor / (cor + wrg) * 100) : 0;
+  const mSc = (mC - mW * 0.2).toFixed(1);
+  const sSc = ((pC + cC + bC) - sW * 0.2).toFixed(1);
+
+  document.getElementById('r-sc').textContent = score;
+  document.getElementById('r-outof').textContent = 'out of ' + totalQs;
+  document.getElementById('r-cor').textContent = cor;
+  document.getElementById('r-wrg').textContent = wrg;
+  document.getElementById('r-skp').textContent = skp;
+  document.getElementById('r-acc').textContent = acc + '%';
+  document.getElementById('r-ms').textContent = mSc + '/' + (activeQ.math||[]).length;
+  document.getElementById('r-ss').textContent = sSc + '/' + ((activeQ.phy||[]).length + (activeQ.chem||[]).length + (activeQ.bio||[]).length);
+
+  document.getElementById('r-vrd').textContent = 'Test completed successfully. Review explanations above.';
+  document.getElementById('result').classList.add('show');
+  document.getElementById('result').scrollIntoView({behavior:'smooth'});
+}
+
+function resetTest(){
+  ans = {}; submitted = false; timeLeft = TOTAL_T;
+  document.querySelectorAll('.opt').forEach(e => e.classList.remove('sel','correct','wrong','skipped-correct','submitted'));
+  document.querySelectorAll('.opt-icon').forEach(e => e.textContent = '');
+  document.querySelectorAll('.explanation').forEach(e => {e.classList.remove('show','skipped'); e.textContent = '';});
+  document.getElementById('result').classList.remove('show');
+  updateCounts();
+  startTimer();
+  window.scrollTo({top:0, behavior:'smooth'});
+}
+
+function startTimer(){
+  clearInterval(tiv);
+  tiv = setInterval(() => {
+    if(submitted){ clearInterval(tiv); return; }
+    timeLeft--;
+    const h = Math.floor(timeLeft/3600), m = Math.floor((timeLeft%3600)/60), s = timeLeft%60;
+    const el = document.getElementById('timer');
+    el.textContent = `${h}:${String(m).padStart(2,'0')}:${String(s).padStart(2,'0')}`;
+    el.className = 'tval' + (timeLeft <= 300 ? ' danger' : timeLeft <= 900 ? ' warn' : '');
+    document.getElementById('prog').style.width = (timeLeft / TOTAL_T * 100).toFixed(2) + '%';
+    if(timeLeft <= 0){ clearInterval(tiv); submitTest(); }
+  }, 1000);
+}
+</script>
+</body>
+</html>
