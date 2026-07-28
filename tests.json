@@ -14,5 +14,13 @@
     "desc": "",
     "color": "#1a56db",
     "file": "papers/paper2.json"
+  },
+  {
+    "id": "paper3",
+    "label": "CBSE Class 10 Mathematics & Science Mock Paper 2",
+    "tier": "Competitive Entrance / Advanced",
+    "desc": "",
+    "color": "#1a56db",
+    "file": "papers/paper3.json"
   }
 ]
