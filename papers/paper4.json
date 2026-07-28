@@ -1,0 +1,617 @@
+{
+  "title": "CBSE Class 10 Mathematics & Science Mock Paper 2",
+  "tier": "Competitive Entrance / Advanced",
+  "math": [
+    {
+      "q": "<b>Case-Based Scenario:</b> A spherical water tank has an inlet pipe and an outlet setup. Engineers model the water level changes using quadratic paths. If the polynomial representing the depth of water over time (in hours) is given by p(x) = x&sup2; &minus; 9x + 20, at what specific time intervals is the water level zero (completely empty or baseline)?",
+      "o": [
+        "x = 2 and x = 3",
+        "x = 4 and x = 5",
+        "x = &minus;4 and x = &minus;5",
+        "x = 1 and x = 20"
+      ],
+      "a": 1,
+      "e": "To find when the water level is zero, set p(x) = 0 &rarr; x&sup2; &minus; 9x + 20 = 0. Factorizing gives (x &minus; 4)(x &minus; 5) = 0, which yields x = 4 and x = 5."
+    },
+    {
+      "q": "<b>Assertion (A):</b> The HCF of two numbers is 5 and their product is 150, then their LCM is 30.<br><b>Reason (R):</b> For any two positive integers a and b, HCF(a, b) &times; LCM(a, b) = a &times; b.",
+      "o": [
+        "Both A and R are true, and R is the correct explanation of A.",
+        "Both A and R are true, but R is NOT the correct explanation of A.",
+        "A is true, R is false.",
+        "A is false, R is true."
+      ],
+      "a": 0,
+      "e": "Using the standard property HCF &times; LCM = Product of numbers, we get 5 &times; LCM = 150, hence LCM = 30. Both statement A and reason R are true, and R correctly explains A."
+    },
+    {
+      "q": "<b>Diagram-Based (SVG):</b><br><svg viewBox='0 0 120 80' width='140'><polygon points='10,70 110,70 60,10' fill='none' stroke='#000' stroke-width='2'/><line x1='35' y1='40' x2='85' y2='40' stroke='#000' stroke-width='1.5' stroke-dasharray='4'/><text x='55' y='35' font-size='9'>DE || BC</text></svg><br>In &Delta;ABC, line segment DE is drawn parallel to side BC intersecting AB at D and AC at E. If AD = 2 cm, DB = 4 cm, and AE = 3 cm, what is the length of side AC?",
+      "o": [
+        "6 cm",
+        "9 cm",
+        "12 cm",
+        "4.5 cm"
+      ],
+      "a": 1,
+      "e": "By Basic Proportionality Theorem (Thales' Theorem), AD/DB = AE/EC. Thus, 2/4 = 3/EC &rarr; EC = 6 cm. AC = AE + EC = 3 + 6 = 9 cm."
+    },
+    {
+      "q": "The sum of the numerator and denominator of a fraction is 12. If 3 is added to the denominator, the fraction becomes 1/2. What is the original fraction?",
+      "o": [
+        "5/7",
+        "4/8",
+        "3/9",
+        "6/6"
+      ],
+      "a": 0,
+      "e": "Let fraction be x/y. x + y = 12. x/(y + 3) = 1/2 &rarr; 2x = y + 3 &rarr; 2x &minus; y = 3. Adding both equations: 3x = 15 &rarr; x = 5, y = 7. Hence, the fraction is 5/7."
+    },
+    {
+      "q": "<b>Real-Life Application:</b> A Ferris wheel turns at a constant speed. The height h (in meters) of a passenger cabin above the ground after t minutes is modeled by a quadratic relation. If the maximum height reached is 31 meters at t = 2 minutes, and it touches a minimum height of 3 meters at t = 0, which quadratic polynomial models this path for 0 &le; t &le; 4?",
+      "o": [
+        "h(t) = &minus;7t&sup2; + 28t + 3",
+        "h(t) = 7t&sup2; &minus; 14t + 3",
+        "h(t) = &minus;5t&sup2; + 20t + 3",
+        "h(t) = &minus;7t&sup2; + 14t + 3"
+      ],
+      "a": 0,
+      "e": "At t = 0, h = 3, which matches constant term c = 3 in all options. The vertex is at t = 2 where h = 31. Using vertex formula t = &minus;b/(2a) = 2, and evaluating h(2) = &minus;7(4) + 28(2) + 3 = &minus;28 + 56 + 3 = 31. This matches option A."
+    },
+    {
+      "q": "If &alpha; and &beta; are the zeroes of the quadratic polynomial p(x) = x&sup2; &minus; 5x + k such that &alpha; &minus; β = 1, find the value of k.",
+      "o": [
+        "4",
+        "5",
+        "6",
+        "9"
+      ],
+      "a": 2,
+      "e": "Sum of zeroes &alpha; + &beta; = 5, product = k. Given &alpha; &minus; &beta; = 1. Solving &alpha; + &beta; = 5 and &alpha; &minus; &beta; = 1 gives &alpha; = 3, &beta; = 2. Product k = &alpha;&beta; = 3 &times; 2 = 6."
+    },
+    {
+      "q": "What is the 11th term from the last term (towards the first term) of the AP: 10, 7, 4, ..., &minus;62?",
+      "o": [
+        "&minus;32",
+        "&minus;35",
+        "&minus;38",
+        "&minus;41"
+      ],
+      "a": 0,
+      "e": "Reversing the AP, the first term becomes l = &minus;62 and common difference d becomes &minus;(&minus;3) = +3. The 11th term from the end is a_11 = &minus;62 + (11 &minus; 1)(3) = &minus;62 + 30 = &minus;32."
+    },
+    {
+      "q": "If the point P(k, 0) divides the line segment joining the points A(2, &minus;2) and B(&minus;7, 4) in the ratio 1:2, then the value of k is:",
+      "o": [
+        "&minus;1",
+        "1",
+        "&minus;2",
+        "2"
+      ],
+      "a": 0,
+      "e": "Using section formula for the y-coordinate (since y-coordinate of P is 0): y = (m1*y2 + m2*y1)/(m1+m2) &rarr; 0 = (1(4) + 2(&minus;2))/3 = 0 (consistent). For x-coordinate: k = (1(&minus;7) + 2(2))/(1 + 2) = (&minus;7 + 4)/3 = &minus;3/3 = &minus;1."
+    },
+    {
+      "q": "If sin &theta; &minus; cos &theta; = 0, then the value of (sin&sup4; &theta; + cos&sup4; &theta;) is:",
+      "o": [
+        "1",
+        "1/2",
+        "1/4",
+        "3/4"
+      ],
+      "a": 1,
+      "e": "sin &theta; = cos &theta; implies &theta; = 45&deg;. Substituting: sin&sup4;(45&deg;) + cos&sup4;(45&deg;) = (1/&radic;2)&sup4; + (1/&radic;2)&sup4; = 1/4 + 1/4 = 2/4 = 1/2."
+    },
+    {
+      "q": "From a point P on the ground, the angle of elevation of the top of a 10m tall building is 30&deg;. A flag is hoisted at the top of the building and the angle of elevation of the top of the flagpole from P is 45&deg;. Find the length of the flagpole.",
+      "o": [
+        "10(&radic;3 &minus; 1) m",
+        "10(&radic;3 + 1) m",
+        "5&radic;3 m",
+        "10 m"
+      ],
+      "a": 0,
+      "e": "Let distance from P to building be x. tan 30&deg; = 10/x &rarr; x = 10&radic;3 m. Let total height be h. tan 45&deg; = h/x &rarr; h = x = 10&radic;3 m. Length of flagpole = h &minus; 10 = 10&radic;3 &minus; 10 = 10(&radic;3 &minus; 1) m."
+    },
+    {
+      "q": "If radii of two concentric circles are 4cm and 5cm, then the length of each chord of one circle which is tangent to the other circle is:",
+      "o": [
+        "3 cm",
+        "6 cm",
+        "9 cm",
+        "8 cm"
+      ],
+      "a": 1,
+      "e": "The radius of the inner circle (4cm) is perpendicular to the chord of the outer circle. Half-chord length = &radic;(5&sup2; &minus; 4&sup2;) = 3 cm. Full length of chord = 2 &times; 3 = 6 cm."
+    },
+    {
+      "q": "If the perimeter and the area of a circle are numerically equal, then the radius of the circle is:",
+      "o": [
+        "2 units",
+        "&pi; units",
+        "4 units",
+        "7 units"
+      ],
+      "a": 0,
+      "e": "2&pi;r = &pi;r&sup2; &rarr; r = 2 units (since r &ne; 0)."
+    },
+    {
+      "q": "A solid metallic sphere of radius 6 cm is melted and recast into a cylinder of base radius 4 cm. Find the height of the cylinder.",
+      "o": [
+        "12 cm",
+        "18 cm",
+        "36 cm",
+        "9 cm"
+      ],
+      "a": 1,
+      "e": "Volume of sphere = Volume of cylinder &rarr; (4/3)&pi;(6)&sup3; = &pi;(4)&sup2;h &rarr; 4/3 &times; 216 = 16h &rarr; 288 = 16h &rarr; h = 18 cm."
+    },
+    {
+      "q": "If the mean of observations x1, x2, ..., xn is x&#772;, then the mean of x1+a, x2+a, ..., xn+a is:",
+      "o": [
+        "x&#772;",
+        "x&#772; + a",
+        "x&#772; + an",
+        "ax&#772;"
+      ],
+      "a": 1,
+      "e": "Adding a constant 'a' to each observation shifts the mean by exactly 'a', resulting in x&#772; + a."
+    },
+    {
+      "q": "A card is drawn from a well-shuffled deck of 52 playing cards. What is the probability of getting a black face card?",
+      "o": [
+        "3/26",
+        "3/13",
+        "1/26",
+        "2/13"
+      ],
+      "a": 0,
+      "e": "Total black face cards = 6 (Jacks, Queens, Kings of spades and clubs). Probability = 6/52 = 3/26."
+    },
+    {
+      "q": "If the quadratic equation x&sup2; + 2x + k = 0 has real and equal roots, then the value of k is:",
+      "o": [
+        "1",
+        "&minus;1",
+        "2",
+        "4"
+      ],
+      "a": 0,
+      "e": "For real and equal roots, Discriminant D = 0 &rarr; b&sup2; &minus; 4ac = 0 &rarr; (2)&sup2; &minus; 4(1)(k) = 0 &rarr; 4 &minus; 4k = 0 &rarr; k = 1."
+    },
+    {
+      "q": "The sum of the first 20 odd natural numbers is:",
+      "o": [
+        "200",
+        "400",
+        "420",
+        "210"
+      ],
+      "a": 1,
+      "e": "The sum of the first n odd natural numbers is always equal to n&sup2;. For n = 20, sum = 20&sup2; = 400."
+    },
+    {
+      "q": "If &Delta;ABC ~ &Delta;PQR such that ar(&Delta;ABC) = 9 cm&sup2; and ar(&Delta;PQR) = 16 cm&sup2; and BC = 2.1 cm, then the length of QR is:",
+      "o": [
+        "2.8 cm",
+        "3.5 cm",
+        "1.8 cm",
+        "2.4 cm"
+      ],
+      "a": 0,
+      "e": "Ratio of areas = (BC / QR)&sup2; &rarr; 9/16 = (2.1 / QR)&sup2; &rarr; 3/4 = 2.1 / QR &rarr; QR = (2.1 &times; 4) / 3 = 2.8 cm."
+    },
+    {
+      "q": "The coordinates of the point which is the reflection of point (3, 5) in the x-axis are:",
+      "o": [
+        "(&minus;3, 5)",
+        "(3, &minus;5)",
+        "(&minus;3, &minus;5)",
+        "(5, 3)"
+      ],
+      "a": 1,
+      "e": "Reflection in the x-axis keeps the x-coordinate same and negates the y-coordinate, yielding (3, &minus;5)."
+    },
+    {
+      "q": "Evaluate: (1 + tan&sup2; &theta;) (1 &minus; sin &theta;) (1 + sin &theta;)",
+      "o": [
+        "0",
+        "&minus;1",
+        "1",
+        "2"
+      ],
+      "a": 2,
+      "e": "Using identities: (1 + tan&sup2;&theta;) = sec&sup2;&theta; and (1 &minus; sin&theta;)(1 + sin&theta;) = 1 &minus; sin&sup2;&theta; = cos&sup2;&theta;. Therefore, sec&sup2;&theta; &times; cos&sup2;&theta; = 1."
+    },
+    {
+      "q": "If the common difference of an AP is &minus;4, and the seventh term (a7) is 4, then the first term (a) is:",
+      "o": [
+        "28",
+        "20",
+        "&minus;24",
+        "12"
+      ],
+      "a": 0,
+      "e": "a7 = a + 6d = 4 &rarr; a + 6(&minus;4) = 4 &rarr; a &minus; 24 = 4 &rarr; a = 28."
+    },
+    {
+      "q": "In a simultaneous throw of two dice, what is the probability of getting a total score of 5?",
+      "o": [
+        "1/9",
+        "1/12",
+        "1/18",
+        "5/36"
+      ],
+      "a": 0,
+      "e": "Favorable outcomes for sum of 5: (1,4), (2,3), (3,2), (4,1) &rarr; 4 outcomes. Total = 36. Probability = 4/36 = 1/9."
+    },
+    {
+      "q": "If the system of equations 3x + y = 1 and (2k &minus; 1)x + (k &minus; 1)y = 2k + 1 is inconsistent, find the value of k.",
+      "o": [
+        "1",
+        "2",
+        "&minus;1",
+        "3"
+      ],
+      "a": 1,
+      "e": "Inconsistent lines are parallel: a1/a2 = b1/b2 &ne; c1/c2. 3 / (2k &minus; 1) = 1 / (k &minus; 1) &rarr; 3(k &minus; 1) = 2k &minus; 1 &rarr; 3k &minus; 3 = 2k &minus; 1 &rarr; k = 2."
+    },
+    {
+      "q": "The angle subtended at the centre by an arc of a circle of radius 6 cm is 60&deg;. Find the area of the corresponding sector.",
+      "o": [
+        "18.84 cm&sup2;",
+        "9.42 cm&sup2;",
+        "37.68 cm&sup2;",
+        "13.2 cm&sup2;"
+      ],
+      "a": 0,
+      "e": "Area = (60/360) &times; 3.14 &times; 6&sup2; = (1/6) &times; 3.14 &times; 36 = 6 &times; 3.14 = 18.84 cm&sup2;."
+    },
+    {
+      "q": "Which term of the progression 19, 18 1/5, 17 2/5, ... is the first negative term?",
+      "o": [
+        "20th",
+        "25th",
+        "26th",
+        "28th"
+      ],
+      "a": 1,
+      "e": "a = 19, d = 18.2 &minus; 19 = &minus;0.8. We need an < 0 &rarr; 19 + (n &minus; 1)(&minus;0.8) < 0 &rarr; 19.8 < 0.8n &rarr; n > 24.75. Since n must be an integer, n = 25th term."
+    }
+  ],
+  "phy": [
+    {
+      "q": "<b>Experiment/Lab-Based:</b> A student uses a concave mirror to obtain a sharp image of a distant tree on a screen. Which of the following describes the correct setup to measure the focal length accurately?",
+      "o": [
+        "Measure the distance between the mirror and the object (tree).",
+        "Measure the distance between the screen and the mirror.",
+        "Measure the distance between the object and the screen divided by two.",
+        "Measure the distance between the mirror and the bulb."
+      ],
+      "a": 1,
+      "e": "For a distant object (like a tree at infinity), light rays are parallel and converge at the principal focus. Thus, the distance between the screen (where the sharp image forms) and the concave mirror gives the focal length directly."
+    },
+    {
+      "q": "<b>Assertion (A):</b> Light travels faster in glass than in water.<br><b>Reason (R):</b> The refractive index of glass (approx 1.5) is higher than that of water (approx 1.33), and speed is inversely proportional to refractive index.",
+      "o": [
+        "Both A and R are true, and R is the correct explanation of A.",
+        "Both A and R are true, but R is NOT the correct explanation of A.",
+        "A is true, R is false.",
+        "A is false, R is true."
+      ],
+      "a": 3,
+      "e": "Since glass has a higher refractive index than water, light travels SLOWER in glass than in water. Therefore, Assertion A is false, while Reason R correctly states the inverse relationship between speed and refractive index."
+    },
+    {
+      "q": "<b>Diagram-Based (SVG):</b><br><svg viewBox='0 0 150 50' width='160'><line x1='10' y1='25' x2='140' y2='25' stroke='#888' stroke-dasharray='3'/><path d='M40 10 Q75 45 110 10' fill='none' stroke='#000' stroke-width='2'/><text x='60' y='42' font-size='9'>Lens / Mirror</text></svg><br>An object is placed at a distance of 15 cm in front of a convex lens of focal length 10 cm. What is the nature and position of the image formed?",
+      "o": [
+        "Real, inverted, at v = +30 cm",
+        "Virtual, erect, at v = &minus;30 cm",
+        "Real, inverted, at v = +15 cm",
+        "Virtual, erect, at v = +30 cm"
+      ],
+      "a": 0,
+      "e": "Using lens formula 1/v &minus; 1/u = 1/f with u = &minus;15 cm and f = +10 cm: 1/v = 1/10 + 1/(&minus;15) = (3 &minus; 2)/30 = 1/30 &rarr; v = +30 cm. Positive v indicates a real, inverted image formed on the other side of the lens."
+    },
+    {
+      "q": "Three resistors of resistances 2 &Omega;, 3 &Omega;, and 6 &Omega; are connected in parallel. This combination is connected in series with a 4V battery. What is the current flowing through the 3 &Omega; resistor?",
+      "o": [
+        "2 A",
+        "1.33 A",
+        "0.67 A",
+        "4 A"
+      ],
+      "a": 1,
+      "e": "Equivalent resistance of parallel branch R_p = 1 &Omega;. Total resistance = 1 + 0 = 1 &Omega;. Total current = 4 A. Voltage across parallel branch = 4A &times; 1&Omega; = 4V. Current through 3 &Omega; resistor = 4V / 3&Omega; = 1.33 A."
+    },
+    {
+      "q": "<b>Real-Life Application:</b> Why are transmission lines for high-voltage power distribution made of thick aluminum or copper-cored cables rather than thin wires?",
+      "o": [
+        "Thick wires have higher resistance, generating warmth to prevent icing.",
+        "Thick wires offer lower electrical resistance, minimizing energy loss as heat (I&sup2;R loss).",
+        "Thick wires are lighter and easier to suspend across long poles.",
+        "Thick wires prevent magnetic induction leakage."
+      ],
+      "a": 1,
+      "e": "Resistance is inversely proportional to cross-sectional area (R = &rho;L/A). Thicker wires have a larger cross-sectional area, resulting in lower resistance and significantly reduced power losses due to Joule heating (I&sup2;R)."
+    },
+    {
+      "q": "A person can see distinct objects clearly only when they are between 25 cm and infinity? Wait, a person with myopia cannot see beyond 1.5 m. What is the power of the lens needed to correct this defect?",
+      "o": [
+        "+0.67 D",
+        "&minus;0.67 D",
+        "+1.5 D",
+        "&minus;1.5 D"
+      ],
+      "a": 1,
+      "e": "For myopia, the far point is 1.5 m. The corrective lens must form a virtual image of an object at infinity at the person's far point (v = &minus;1.5 m). 1/f = 1/v &minus; 1/u = 1/(&minus;1.5) &minus; 0 = &minus;1/1.5 = &minus;2/3 D &approx; &minus;0.67 D."
+    },
+    {
+      "q": "The magnetic field lines inside a long current-carrying solenoid are in the form of parallel straight lines. This indicates that:",
+      "o": [
+        "The magnetic field is zero inside.",
+        "The magnetic field is uniform at all points inside.",
+        "The magnetic field is stronger at the ends than the middle.",
+        "The solenoid acts like a single point charge."
+      ],
+      "a": 1,
+      "e": "Parallel and equidistant magnetic field lines inside a straight solenoid signify a uniform magnetic field strength and direction at every point inside."
+    },
+    {
+      "q": "An electric bulb is rated 220V and 100W. When it is operated on 110V, the power consumed by the bulb is:",
+      "o": [
+        "100 W",
+        "50 W",
+        "25 W",
+        "200 W"
+      ],
+      "a": 2,
+      "e": "Resistance of the bulb R = V&sup2;/P = (220)&sup2;/100 = 484 &Omega;. When operated at V' = 110V, power consumed P' = (V')&sup2;/R = (110)&sup2;/484 = 12100/484 = 25 W."
+    },
+    {
+      "q": "Which of the following phenomena of light is responsible for the twinkling of stars?",
+      "o": [
+        "Reflection of light",
+        "Total internal reflection",
+        "Atmospheric refraction",
+        "Dispersion of light"
+      ],
+      "a": 2,
+      "e": "Starlight undergoes continuous atmospheric refraction as it passes through varying density layers of the Earth's atmosphere, causing the apparent position and brightness to flicker (twinkle)."
+    },
+    {
+      "q": "According to Fleming's Left-Hand Rule, if the thumb points in the direction of motion of the conductor and the forefinger points in the direction of magnetic field, then the middle finger points in the direction of:",
+      "o": [
+        "Induced current",
+        "Current in the conductor",
+        "Magnetic force",
+        "Electron flow"
+      ],
+      "a": 1,
+      "e": "In Fleming's Left-Hand Rule, the thumb = Force/Motion, Forefinger = Magnetic Field, and Middle Finger = Conventional Current."
+    }
+  ],
+  "chem": [
+    {
+      "q": "<b>Experiment/Lab-Based:</b> A student adds a pinch of solid sodium carbonate to a test tube containing dilute ethanoic acid. Which of the following observations is correct?",
+      "o": [
+        "No reaction takes place at room temperature.",
+        "A pungent smelling brown gas evolves rapidly.",
+        "Brisk effervescence occurs, and the evolved gas turns lime water milky.",
+        "The mixture becomes ice-cold due to an endothermic reaction."
+      ],
+      "a": 2,
+      "e": "Ethanoic acid reacts with sodium carbonate to produce carbon dioxide gas with brisk effervescence. CO&sub2; turns lime water milky due to the formation of insoluble calcium carbonate."
+    },
+    {
+      "q": "<b>Assertion (A):</b> Baking soda is added to cake batter to make it soft and spongy.<br><b>Reason (R):</b> On heating during baking, sodium hydrogen carbonate decomposes to release carbon dioxide gas, which gets trapped in the dough.",
+      "o": [
+        "Both A and R are true, and R is the correct explanation of A.",
+        "Both A and R are true, but R is NOT the correct explanation of A.",
+        "A is true, R is false.",
+        "A is false, R is true."
+      ],
+      "a": 0,
+      "e": "Sodium hydrogen carbonate (baking soda) undergoes thermal decomposition to release CO&sub2; gas, expanding the batter and making cakes spongy. Both A and R are correct and R explains A."
+    },
+    {
+      "q": "An element X reacts with oxygen to form an ionic compound XO. This compound has a high melting point and is soluble in water. Element X is most likely to be found in which group of the Periodic Table?",
+      "o": [
+        "Group 1",
+        "Group 2",
+        "Group 17",
+        "Group 18"
+      ],
+      "a": 1,
+      "e": "An oxide formula XO implies the metal X has a valency of +2 (since oxygen has &minus;2). Group 2 alkaline earth metals form oxides of formula XO (e.g., MgO, CaO)."
+    },
+    {
+      "q": "Consider the following chemical reaction used in metallurgy: 2Fe&sub2;O&sub3; + 3C &rarr; 4Fe + 3CO&sub2;. Which substance is getting reduced in this process?",
+      "o": [
+        "Carbon (C)",
+        "Carbon dioxide (CO&sub2;)",
+        "Iron (Fe)",
+        "Iron(III) oxide (Fe&sub2;O&sub3;)"
+      ],
+      "a": 3,
+      "e": "Reduction involves the removal of oxygen or gain of electrons. Iron(III) oxide (Fe&sub2;O&sub3;) loses oxygen to form elemental iron (Fe), so it is reduced."
+    },
+    {
+      "q": "<b>Case-Based Scenario:</b> A chemistry teacher provides four unlabelled colourless solutions A, B, C, and D. Universal indicator tests show respective pH values of 2, 7, 10, and 13. Which solution would liberate hydrogen gas most vigorously when reacted with active zinc granules?",
+      "o": [
+        "Solution A (pH 2)",
+        "Solution B (pH 7)",
+        "Solution C (pH 10)",
+        "Solution D (pH 13)"
+      ],
+      "a": 0,
+      "e": "Solution A has a pH of 2, indicating strong acidity (high concentration of hydronium ions). Acids react with reactive metals like zinc to evolve hydrogen gas vigorously."
+    },
+    {
+      "q": "During the electrolytic refining of copper, pure copper is deposited at which electrode and from where?",
+      "o": [
+        "Cathode, from the electrolyte solution",
+        "Anode, from the cathode strip",
+        "Cathode, from the impure copper anode",
+        "Anode, from the pure copper bar"
+      ],
+      "a": 2,
+      "e": "In electrorefining, impure copper is made the anode and pure copper is made the cathode. Copper dissolves from the anode into the electrolyte and deposits onto the cathode."
+    },
+    {
+      "q": "Which of the following organic compounds undergoes substitution reactions rather than addition reactions?",
+      "o": [
+        "Ethene (C&sub2;H&sub4;)",
+        "Ethyne (C&sub2;H&sub2;)",
+        "Ethane (C&sub2;H&sub6;)",
+        "Propene (C&sub3;H&sub6;)"
+      ],
+      "a": 2,
+      "e": "Saturated hydrocarbons (alkanes like ethane, C&sub2;H&sub6;) contain only single bonds and undergo substitution reactions, whereas unsaturated hydrocarbons undergo addition reactions."
+    },
+    {
+      "q": "What happens when a small piece of sodium metal is dropped into absolute ethanol?",
+      "o": [
+        "It floats without any reaction.",
+        "It reacts vigorously, evolving hydrogen gas and forming sodium ethoxide.",
+        "It turns the solution acidic.",
+        "It forms a white precipitate of sodium hydroxide."
+      ],
+      "a": 1,
+      "e": "Sodium reacts with ethanol to produce hydrogen gas (which burns with a pop sound) and sodium ethoxide: 2CH&sub3;CH&sub2;OH + 2Na &rarr; 2CH&sub3;CH&sub2;ONa + H&sub2;&uarr;."
+    },
+    {
+      "q": "The number of covalent bonds in a molecule of propane (C&sub3;H&sub8;) is:",
+      "o": [
+        "10",
+        "8",
+        "12",
+        "11"
+      ],
+      "a": 0,
+      "e": "Propane has 2 C&minus;C single bonds and 8 C&minus;H single bonds, making a total of 2 + 8 = 10 covalent bonds."
+    },
+    {
+      "q": "When lead nitrate powder is heated strongly in a dry test tube, brown fumes are evolved. These brown fumes are of:",
+      "o": [
+        "Nitrogen monoxide (NO)",
+        "Nitrogen dioxide (NO&sub2;)",
+        "Oxygen (O&sub2;)",
+        "Lead oxide (PbO)"
+      ],
+      "a": 1,
+      "e": "Thermal decomposition of lead nitrate yields lead oxide, oxygen, and brown fumes of nitrogen dioxide: 2Pb(NO&sub3;)(s) &rarr; 2PbO(s) + 4NO&sub2;(g) + O&sub2;(g)."
+    }
+  ],
+  "bio": [
+    {
+      "q": "<b>Diagram-Based (SVG):</b><br><svg viewBox='0 0 100 60' width='140'><ellipse cx='50' cy='30' rx='35' ry='20' fill='none' stroke='#000' stroke-width='2'/><circle cx='50' cy='30' r='8' fill='#000'/><text x='30' y='55' font-size='8'>Guard Cells & Stoma</text></svg><br>During daytime, what triggers the opening of stomatal pores on plant leaves for gaseous exchange?",
+      "o": [
+        "Inflow of water into guard cells making them turgid",
+        "Outflow of water from guard cells making them flaccid",
+        "Accumulation of excess starch inside chloroplasts",
+        "High rate of root pressure pushing water outward"
+      ],
+      "a": 0,
+      "e": "When water flows into the guard cells via osmosis, they swell and become turgid, causing their outer thin walls to stretch outward and opening the stoma between them."
+    },
+    {
+      "q": "<b>Assertion (A):</b> The flow of energy in an ecosystem is unidirectional.<br><b>Reason (R):</b> Energy captured by autotrophs does not revert back to the solar input, and energy lost as heat cannot be reused by organisms.",
+      "o": [
+        "Both A and R are true, and R is the correct explanation of A.",
+        "Both A and R are true, but R is NOT the correct explanation of A.",
+        "A is true, R is false.",
+        "A is false, R is true."
+      ],
+      "a": 0,
+      "e": "Energy flows in one direction from producers to consumers and eventually dissipates into the environment as heat, never cycling back. Both statements are true and R explains A."
+    },
+    {
+      "q": "In human beings, deoxygenated blood from the lower and upper body parts returns to the heart and first enters which chamber?",
+      "o": [
+        "Left atrium",
+        "Right ventricle",
+        "Right atrium",
+        "Left ventricle"
+      ],
+      "a": 2,
+      "e": "Deoxygenated blood collected from body tissues via the venae cavae enters the right atrium of the heart first before passing into the right ventricle."
+    },
+    {
+      "q": "Which of the following plant hormones is primarily responsible for promoting cell division and is present in greater concentrations in areas of rapid growth like fruits and seeds?",
+      "o": [
+        "Auxin",
+        "Gibberellin",
+        "Cytokinin",
+        "Abscisic acid"
+      ],
+      "a": 2,
+      "e": "Cytokinins promote cell division (cytokinesis) and are found in high concentrations in areas of rapid cell division such as fruits and seeds."
+    },
+    {
+      "q": "<b>Real-Life Application:</b> A pure tall pea plant is crossed with a pure dwarf pea plant. All offspring in the F1 generation are tall. When these F1 plants are self-pollinated, what percentage of tall plants in the F2 generation are expected to be genetically heterozygous (Tt)?",
+      "o": [
+        "25%",
+        "50%",
+        "75%",
+        "100%"
+      ],
+      "a": 1,
+      "e": "Selfing F1 plants (Tt &times; Tt) produces an F2 genotypic ratio of 1 TT : 2 Tt : 1 tt. Out of the total offspring, 2 out of 4 (50%) are heterozygous (Tt)."
+    },
+    {
+      "q": "Which part of the human nephron is primarily responsible for the reabsorption of essential nutrients such as glucose, amino acids, and major amounts of water?",
+      "o": [
+        "Glomerulus",
+        "Bowman's capsule",
+        "Proximal Convoluted Tubule (PCT)",
+        "Collecting duct"
+      ],
+      "a": 2,
+      "e": "The Proximal Convoluted Tubule (PCT) reabsorbs nearly all vital nutrients, glucose, amino acids, and water back into surrounding blood capillaries."
+    },
+    {
+      "q": "What is the primary function of the cerebellum in the human brain?",
+      "o": [
+        "Regulating heartbeat and breathing",
+        "Controlling thinking, memory, and reasoning",
+        "Maintaining posture, balance, and coordination of voluntary movements",
+        "Regulating body temperature and hunger"
+      ],
+      "a": 2,
+      "e": "The cerebellum coordinates voluntary muscle movements and maintains posture and equilibrium (balance)."
+    },
+    {
+      "q": "In anaerobic respiration occurring in yeast cells during fermentation, the end products formed are:",
+      "o": [
+        "Lactic acid and energy only",
+        "Carbon dioxide, water, and energy",
+        "Ethanol, carbon dioxide, and energy",
+        "Pyruvate and water only"
+      ],
+      "a": 2,
+      "e": "In yeast, anaerobic respiration breaks down glucose into ethanol, carbon dioxide, and a small amount of energy."
+    },
+    {
+      "q": "Which of the following organisms reproduces primarily through multiple fission under unfavorable environmental conditions?",
+      "o": [
+        "Amoeba",
+        "Plasmodium (malarial parasite)",
+        "Yeast",
+        "Hydra"
+      ],
+      "a": 1,
+      "e": "Plasmodium reproduces through multiple fission, where a single cell divides into many daughter cells simultaneously inside a protective cyst."
+    },
+    {
+      "q": "Biomagnification refers to the progressive increase in the concentration of toxic non-biodegradable chemicals at successive trophic levels. Which organism in an aquatic food chain is likely to accumulate the highest concentration of pesticides like DDT?",
+      "o": [
+        "Phytoplankton",
+        "Zooplankton",
+        "Small fish",
+        "Fish-eating birds (Top carnivore)"
+      ],
+      "a": 3,
+      "e": "Because non-biodegradable chemicals cannot be metabolized or excreted, their concentration multiplies at each higher trophic level, reaching maximum accumulation in top carnivores like fish-eating birds."
+    }
+  ]
+}
