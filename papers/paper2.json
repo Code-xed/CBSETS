@@ -1,0 +1,1002 @@
+{
+  "title": "CBSE Class 10 Mathematics & Science Mock Paper 1",
+  "tier": "Competitive Entrance",
+  "math": [
+    {
+      "q": "If the HCF of 65 and 117 is expressible as 65m &minus; 117, the value of m is:",
+      "o": [
+        "2",
+        "1",
+        "4",
+        "3"
+      ],
+      "a": 0,
+      "e": "HCF(65,117)=13. So 65m &minus; 117 = 13 &rarr; 65m = 130 &rarr; m = 2."
+    },
+    {
+      "q": "The sum of first n terms of an AP is 3n&sup2; + 5n. The 4th term is:",
+      "o": [
+        "29",
+        "32",
+        "26",
+        "23"
+      ],
+      "a": 2,
+      "e": "a4 = S4 &minus; S3 = (3 &times; 16 + 20) &minus; (3 &times; 9 + 15) = 68 &minus; 42 = 26."
+    },
+    {
+      "q": "For what value of k does the pair of equations 2x + 3y = 7 and (k &minus; 1)x + (k + 2)y = 3k have infinitely many solutions?",
+      "o": [
+        "k = 7",
+        "k = 5",
+        "k = 6",
+        "k = 4"
+      ],
+      "a": 0,
+      "e": "2 / (k &minus; 1) = 3 / (k + 2) &rarr; 2(k + 2) = 3(k &minus; 1) &rarr; 2k + 4 = 3k &minus; 3 &rarr; k = 7. (Third ratio 7 / 3k also checks out at k = 7.)"
+    },
+    {
+      "q": "If tan A + cot A = 2, then tan&sup2;A + cot&sup2;A equals:",
+      "o": [
+        "2",
+        "1",
+        "0",
+        "4"
+      ],
+      "a": 0,
+      "e": "tan A + cot A = 2 forces tan A = cot A = 1 (equality case), so tan&sup2;A + cot&sup2;A = 1 + 1 = 2."
+    },
+    {
+      "q": "A quadratic polynomial whose zeroes are (2 + &radic;3) and (2 &minus; &radic;3) is:",
+      "o": [
+        "x&sup2; &minus; 4x &minus; 1",
+        "x&sup2; + 4x &minus; 1",
+        "x&sup2; + 4x + 1",
+        "x&sup2; &minus; 4x + 1"
+      ],
+      "a": 3,
+      "e": "Sum = 4, product = (2)&sup2; &minus; (&radic;3)&sup2; = 4 &minus; 3 = 1. Polynomial: x&sup2; &minus; 4x + 1."
+    },
+    {
+      "q": "The number of solutions of the pair of linear equations x &minus; 2y = 0 and 3x + 4y = 20 is:",
+      "o": [
+        "Exactly one",
+        "2",
+        "Infinite",
+        "0"
+      ],
+      "a": 0,
+      "e": "a1/a2 = 1/3, b1/b2 = &minus;2/4 = &minus;1/2 &mdash; ratios differ, so exactly one solution: x = 4, y = 2."
+    },
+    {
+      "q": "If the discriminant of 2x&sup2; &minus; 5x + k = 0 is 1, the value of k is:",
+      "o": [
+        "5/2",
+        "2",
+        "3",
+        "3/2"
+      ],
+      "a": 2,
+      "e": "D = 25 &minus; 8k = 1 &rarr; 8k = 24 &rarr; k = 3."
+    },
+    {
+      "q": "The roots of 4x&sup2; &minus; 4&radic;3x + 3 = 0 are:",
+      "o": [
+        "Rational and unequal",
+        "Real and equal",
+        "Real and unequal",
+        "Not real"
+      ],
+      "a": 1,
+      "e": "D = (4&radic;3)&sup2; &minus; 4(4)(3) = 48 &minus; 48 = 0, so real and equal roots."
+    },
+    {
+      "q": "If the sum of first 14 terms of an AP is 1050 and its first term is 10, the 20th term is:",
+      "o": [
+        "104",
+        "98",
+        "200",
+        "116"
+      ],
+      "a": 2,
+      "e": "S14 = 7(20 + 13d) = 1050 &rarr; 20 + 13d = 150 &rarr; d = 10. a20 = 10 + 19(10) = 200."
+    },
+    {
+      "q": "The distance between points (a cos&theta; + b sin&theta;, 0) and (0, a sin&theta; &minus; b cos&theta;) is:",
+      "o": [
+        "&radic;(a&sup2; + b&sup2;)",
+        "a + b",
+        "a&sup2; + b&sup2;",
+        "a&sup2; &minus; b&sup2;"
+      ],
+      "a": 0,
+      "e": "Distance&sup2; = (a cos&theta; + b sin&theta;)&sup2; + (a sin&theta; &minus; b cos&theta;)&sup2; = a&sup2; + b&sup2;. Distance = &radic;(a&sup2; + b&sup2;)."
+    },
+    {
+      "q": "If points A(4, 3) and B(x, 5) lie on a circle with centre O(2, 3), the value of x is:",
+      "o": [
+        "3",
+        "&minus;2",
+        "2",
+        "4"
+      ],
+      "a": 2,
+      "e": "OA = OB (radii). OA = &radic;((4 &minus; 2)&sup2; + 0&sup2;) = 2. OB = &radic;((x &minus; 2)&sup2; + 4) = 2 &rarr; (x &minus; 2)&sup2; = 0 &rarr; x = 2."
+    },
+    {
+      "q": "The ratio in which the line segment joining (&minus;3, 10) and (6, &minus;8) is divided by the point (&minus;1, 6) is:",
+      "o": [
+        "2:7",
+        "2:1",
+        "7:2",
+        "1:2"
+      ],
+      "a": 0,
+      "e": "Section formula: &minus;1 = (6k &minus; 3)/(k + 1) &rarr; &minus;k &minus; 1 = 6k &minus; 3 &rarr; 2 = 7k &rarr; k = 2/7, i.e., ratio 2:7."
+    },
+    {
+      "q": "In triangle ABC right-angled at B, if AB = 6, BC = 8, then sin A + cos A equals:",
+      "o": [
+        "(6 + 8)/10",
+        "7/5",
+        "1",
+        "14/10"
+      ],
+      "a": 1,
+      "e": "AC = &radic;(36 + 64) = 10. sin A = BC/AC = 8/10, cos A = AB/AC = 6/10. Sum = 14/10 = 7/5."
+    },
+    {
+      "q": "If sin &theta; + cos &theta; = &radic;2, then tan &theta; + cot &theta; equals:",
+      "o": [
+        "2",
+        "1",
+        "&radic;2",
+        "1/2"
+      ],
+      "a": 0,
+      "e": "sin &theta; + cos &theta; = &radic;2 forces &theta; = 45&deg;. tan &theta; + cot &theta; = 1 + 1 = 2."
+    },
+    {
+      "q": "The angle of elevation of the top of a tower from a point on the ground, 30m away from the foot, is 30&deg;. The height of the tower is:",
+      "o": [
+        "30&radic;3 m",
+        "15 m",
+        "10 / &radic;3 m",
+        "10&radic;3 m"
+      ],
+      "a": 3,
+      "e": "tan 30&deg; = h / 30 &rarr; h = 30 / &radic;3 = 10&radic;3 m."
+    },
+    {
+      "q": "Two poles of height 6m and 11m stand on a plane ground. If the distance between their feet is 12m, the distance between their tops is:",
+      "o": [
+        "14 m",
+        "11 m",
+        "12 m",
+        "13 m"
+      ],
+      "a": 3,
+      "e": "Height difference = 5m, base = 12m. Distance = &radic;(5&sup2; + 12&sup2;) = &radic;169 = 13m."
+    },
+    {
+      "q": "A chord of a circle of radius 10cm subtends a right angle at the centre. The area of the minor segment is (use &pi; = 3.14):",
+      "o": [
+        "28.5 cm&sup2;",
+        "78.5 cm&sup2;",
+        "21.5 cm&sup2;",
+        "50 cm&sup2;"
+      ],
+      "a": 0,
+      "e": "Sector area = (90/360) &times; 3.14 &times; 100 = 78.5. Triangle area = &frac12; &times; 10 &times; 10 = 50. Segment = 78.5 &minus; 50 = 28.5 cm&sup2;."
+    },
+    {
+      "q": "The area of a quadrant of a circle whose circumference is 22cm is (use &pi; = 22/7):",
+      "o": [
+        "77/4 cm&sup2;",
+        "154/7 cm&sup2;",
+        "77/2 cm&sup2;",
+        "77/8 cm&sup2;"
+      ],
+      "a": 3,
+      "e": "2&pi;r = 22 &rarr; r = 3.5cm. Quadrant area = (1/4)&pi;r&sup2; = (1/4)(22/7)(12.25) = 77/8 cm&sup2;."
+    },
+    {
+      "q": "A cone of height 24cm and base radius 6cm is reshaped into a sphere. The radius of the sphere is:",
+      "o": [
+        "3 cm",
+        "9 cm",
+        "12 cm",
+        "6 cm"
+      ],
+      "a": 3,
+      "e": "Cone volume = (1/3)&pi;(6&sup2;)(24) = 288&pi;. Sphere: (4/3)&pi;R&sup3; = 288&pi; &rarr; R&sup3; = 216 &rarr; R = 6cm."
+    },
+    {
+      "q": "The curved surface area of a cylinder is 264 m&sup2; and its volume is 924 m&sup3; (&pi; = 22/7). The ratio of diameter to height is:",
+      "o": [
+        "3:7",
+        "7:6",
+        "7:3",
+        "6:7"
+      ],
+      "a": 2,
+      "e": "CSA = 2&pi;rh = 264, V = &pi;r&sup2;h = 924. Dividing V/CSA: r/2 = 924/264 = 3.5 &rarr; r = 7m. h = 264/(2&pi; &times; 7) = 6m. Diameter = 14, so diameter:height = 14:6 = 7:3."
+    },
+    {
+      "q": "If the mean of the distribution x: 2, 4, 6, 10, p+5 with frequencies f: 3, 2, 3, 1, 2 is 6, find p.",
+      "o": [
+        "7",
+        "8",
+        "5",
+        "6"
+      ],
+      "a": 0,
+      "e": "&Sigma;fx = 6 + 8 + 18 + 10 + 2(p+5) = 52 + 2p. &Sigma;f = 11. Mean = 6 &rarr; 52 + 2p = 66 &rarr; p = 7."
+    },
+    {
+      "q": "For a data set with n = 60 observations, the median class is the class whose cumulative frequency is just greater than:",
+      "o": [
+        "15",
+        "60",
+        "30",
+        "29"
+      ],
+      "a": 2,
+      "e": "Median class corresponds to n/2 = 30, i.e., cumulative frequency just greater than 30."
+    },
+    {
+      "q": "Two dice are thrown together. The probability of getting a sum of 8 is:",
+      "o": [
+        "1/6",
+        "1/9",
+        "5/36",
+        "7/36"
+      ],
+      "a": 2,
+      "e": "Sum = 8: (2,6), (3,5), (4,4), (5,3), (6,2) &rarr; 5 outcomes out of 36. P = 5/36."
+    },
+    {
+      "q": "A card is drawn from a well-shuffled deck of 52 cards. The probability of getting a face card is:",
+      "o": [
+        "1/13",
+        "4/13",
+        "1/4",
+        "3/13"
+      ],
+      "a": 3,
+      "e": "Face cards = 12 (J, Q, K &times; 4 suits). P = 12/52 = 3/13."
+    },
+    {
+      "q": "If the sum of the zeroes of the polynomial p(x) = 2x&sup2; &minus; k&radic;2x + 1 is &radic;2, then k equals:",
+      "o": [
+        "2",
+        "&radic;2",
+        "2&radic;2",
+        "1"
+      ],
+      "a": 0,
+      "e": "Sum of zeroes = k&radic;2 / 2 = &radic;2 &rarr; k = 2."
+    },
+    {
+      "q": "The value of k for which the system kx + 2y = 5, 3x + y = 1 has a unique solution is:",
+      "o": [
+        "k = 1/6",
+        "k = 6",
+        "k &ne; 1/6",
+        "k &ne; 6"
+      ],
+      "a": 3,
+      "e": "Unique solution requires k/3 &ne; 2/1 &rarr; k &ne; 6."
+    },
+    {
+      "q": "If &alpha;, &beta; are zeroes of x&sup2; &minus; 5x + 6 (i.e., &alpha; = 2, &beta; = 3), a quadratic polynomial with zeroes 1/&alpha;, 1/&beta; is:",
+      "o": [
+        "x&sup2; + 5x + 6",
+        "6x&sup2; &minus; 5x + 1",
+        "6x&sup2; + 5x + 1",
+        "x&sup2; &minus; 5x + 6"
+      ],
+      "a": 1,
+      "e": "1/&alpha; + 1/&beta; = 5/6, (1/&alpha;)(1/&beta;) = 1/6. Polynomial &prop; x&sup2; &minus; (5/6)x + 1/6 &rarr; scaled by 6: 6x&sup2; &minus; 5x + 1."
+    },
+    {
+      "q": "The 11th term of the AP &minus;5, &minus;7/2, &minus;2, ... is:",
+      "o": [
+        "10",
+        "45/2",
+        "&minus;5/2",
+        "5/2"
+      ],
+      "a": 0,
+      "e": "a = &minus;5, d = 3/2. a11 = &minus;5 + 10(3/2) = &minus;5 + 15 = 10."
+    },
+    {
+      "q": "If the roots of ax&sup2; + bx + c = 0 are in the ratio 3:4, which relation holds?",
+      "o": [
+        "24ac = b&sup2;",
+        "7ac = b&sup2;",
+        "49ac = 12b&sup2;",
+        "12ac = 49b&sup2;"
+      ],
+      "a": 2,
+      "e": "Let roots = 3k, 4k. Sum = 7k = &minus;b/a, product = 12k&sup2; = c/a. Substituting gives 49ac = 12b&sup2;."
+    },
+    {
+      "q": "Two concentric circles have radii 5cm and 3cm. The length of the chord of the larger circle which is tangent to the smaller circle is:",
+      "o": [
+        "8 cm",
+        "10 cm",
+        "6 cm",
+        "4 cm"
+      ],
+      "a": 0,
+      "e": "Half-chord = &radic;(5&sup2; &minus; 3&sup2;) = &radic;16 = 4. Full chord = 8cm."
+    },
+    {
+      "q": "'If a line divides two sides of a triangle in the same ratio, it is parallel to the third side' is the converse of:",
+      "o": [
+        "Midpoint Theorem",
+        "Pythagoras Theorem",
+        "AA Similarity Criterion",
+        "Basic Proportionality Theorem"
+      ],
+      "a": 3,
+      "e": "This is the converse of the Basic Proportionality (Thales) Theorem."
+    },
+    {
+      "q": "If sec 4A = cosec(A &minus; 20&deg;), where 4A is an acute angle, the value of A is:",
+      "o": [
+        "18&deg;",
+        "20&deg;",
+        "22&deg;",
+        "24&deg;"
+      ],
+      "a": 2,
+      "e": "sec 4A = cosec(90&deg; &minus; 4A). So 90&deg; &minus; 4A = A &minus; 20&deg; &rarr; 110&deg; = 5A &rarr; A = 22&deg;."
+    },
+    {
+      "q": "The perimeter of a sector of a circle of radius 5.2cm is 16.4cm. The area of the sector is:",
+      "o": [
+        "15.6 cm&sup2;",
+        "12.4 cm&sup2;",
+        "20.8 cm&sup2;",
+        "10.4 cm&sup2;"
+      ],
+      "a": 0,
+      "e": "Arc length = 16.4 &minus; 2(5.2) = 6cm. Area = &frac12; &times; r &times; arc = &frac12; &times; 5.2 &times; 6 = 15.6 cm&sup2;."
+    },
+    {
+      "q": "A solid is a cone (height 24cm) mounted on a hemisphere, both of radius 7cm. The total volume is (&pi; = 22/7):",
+      "o": [
+        "2156 cm&sup3;",
+        "1232 cm&sup3;",
+        "1642.67 cm&sup3;",
+        "1950.67 cm&sup3;"
+      ],
+      "a": 3,
+      "e": "Cone vol = (1/3)(22/7)(49)(24) = 1232 cm&sup3;. Hemisphere vol = (2/3)(22/7)(343) = 718.67 cm&sup3;. Total = 1232 + 718.67 = 1950.67 cm&sup3;."
+    },
+    {
+      "q": "In the modal class formula Mode = l + [(f1 &minus; f0) / (2f1 &minus; f0 &minus; f2)] &times; h, f1 represents:",
+      "o": [
+        "Class width",
+        "Frequency of the modal class",
+        "Frequency of class preceding modal class",
+        "Frequency of class succeeding modal class"
+      ],
+      "a": 1,
+      "e": "f1 is the frequency of the modal class itself."
+    },
+    {
+      "q": "Two coins are tossed simultaneously. The probability of getting at least one head is:",
+      "o": [
+        "1/4",
+        "1/2",
+        "3/4",
+        "1"
+      ],
+      "a": 2,
+      "e": "Outcomes: HH, HT, TH, TT. At least one head in 3 of 4 outcomes &rarr; P = 3/4."
+    },
+    {
+      "q": "The 4th term from the end of the AP &minus;11, &minus;8, &minus;5, ..., 49 is:",
+      "o": [
+        "34",
+        "43",
+        "40",
+        "37"
+      ],
+      "a": 2,
+      "e": "Common difference d = 3, last term = 49. 4th from end = 49 &minus; 3(3) = 49 &minus; 9 = 40."
+    },
+    {
+      "q": "The area of the triangle formed by the points (0, 0), (2, 0), (0, 2) is:",
+      "o": [
+        "8 sq units",
+        "1 sq unit",
+        "2 sq units",
+        "4 sq units"
+      ],
+      "a": 2,
+      "e": "Area = &frac12;|0 + 2(2) + 0| = 2 sq units."
+    },
+    {
+      "q": "If P(E) = 0.05, the probability of 'not E' is:",
+      "o": [
+        "0.95",
+        "1.05",
+        "0.05",
+        "0.5"
+      ],
+      "a": 0,
+      "e": "P(not E) = 1 &minus; P(E) = 1 &minus; 0.05 = 0.95."
+    },
+    {
+      "q": "The pair of equations x = a and y = b, when a &ne; 0 and b &ne; 0, graphically represents lines which:",
+      "o": [
+        "Are coincident",
+        "Intersect at (b, a)",
+        "Are parallel",
+        "Intersect at exactly (a, b)"
+      ],
+      "a": 3,
+      "e": "x = a is vertical, y = b is horizontal; they intersect at exactly (a, b)."
+    },
+    {
+      "q": "If 5 tan &beta; = 4, the value of (5 sin &beta; &minus; 4 cos &beta;) / (5 sin &beta; + 4 cos &beta;) is:",
+      "o": [
+        "6",
+        "0",
+        "1/6",
+        "5/6"
+      ],
+      "a": 1,
+      "e": "tan &beta; = 4/5. Dividing numerator & denominator by cos &beta;: (4 &minus; 4) / (4 + 4) = 0."
+    },
+    {
+      "q": "A bag contains 5 red and 7 white balls. One ball is drawn at random. The probability that it is white is:",
+      "o": [
+        "7/5",
+        "7/12",
+        "5/12",
+        "1/2"
+      ],
+      "a": 1,
+      "e": "Total balls = 12. P(white) = 7/12."
+    },
+    {
+      "q": "The total surface area of a hemisphere of radius 7cm is (&pi; = 22/7):",
+      "o": [
+        "462 cm&sup2;",
+        "154 cm&sup2;",
+        "616 cm&sup2;",
+        "308 cm&sup2;"
+      ],
+      "a": 0,
+      "e": "TSA = 3&pi;r&sup2; = 3 &times; (22/7) &times; 49 = 462 cm&sup2;."
+    },
+    {
+      "q": "The LCM of two numbers is 14 times their HCF. The sum of LCM and HCF is 600. If one number is 280, the other is:",
+      "o": [
+        "80",
+        "84",
+        "90",
+        "70"
+      ],
+      "a": 0,
+      "e": "HCF = 40, LCM = 560. Other number = (40 &times; 560) / 280 = 80."
+    },
+    {
+      "q": "If one root of the quadratic equation 2x&sup2; + kx &minus; 6 = 0 is 2, the value of k is:",
+      "o": [
+        "1",
+        "2",
+        "&minus;2",
+        "&minus;1"
+      ],
+      "a": 3,
+      "e": "Substitute x = 2: 2(4) + 2k &minus; 6 = 0 &rarr; 2k = &minus;2 &rarr; k = &minus;1."
+    }
+  ],
+  "phy": [
+    {
+      "q": "A 4&Omega; and 6&Omega; resistor are connected in parallel, and this combination is connected in series with a 2&Omega; resistor. The total resistance of the circuit is:",
+      "o": [
+        "6 &Omega;",
+        "10 &Omega;",
+        "2.4 &Omega;",
+        "4.4 &Omega;"
+      ],
+      "a": 3,
+      "e": "Parallel: (4 &times; 6)/(4 + 6) = 2.4&Omega;. Series with 2&Omega;: 2.4 + 2 = 4.4&Omega;."
+    },
+    {
+      "q": "An electric bulb is rated 220V, and draws a current such that its resistance is 100&Omega;. The power consumed is:",
+      "o": [
+        "220 W",
+        "484 W",
+        "100 W",
+        "44 W"
+      ],
+      "a": 1,
+      "e": "P = V&sup2;/R = 220&sup2; / 100 = 484W."
+    },
+    {
+      "q": "A ray of light travels from air into glass (refractive index 1.5) with an angle of incidence of 30&deg;. The angle of refraction is approximately:",
+      "o": [
+        "19.5&deg;",
+        "30&deg;",
+        "20&deg;",
+        "45&deg;"
+      ],
+      "a": 0,
+      "e": "By Snell's law: sin r = sin 30&deg; / 1.5 = 0.5 / 1.5 = 0.333 &rarr; r &approx; 19.5&deg;."
+    },
+    {
+      "q": "A convex lens of focal length 20cm forms an image of an object placed 30cm from the lens. The image distance and magnification are:",
+      "o": [
+        "20 cm, magnification 0.5",
+        "&minus;60 cm, magnification &minus;2",
+        "30 cm, magnification 1",
+        "60 cm, magnification 2"
+      ],
+      "a": 3,
+      "e": "Using lens formula: 1/v &minus; 1/u = 1/f &rarr; v = 60cm, m = &minus;v/u = 2."
+    },
+    {
+      "q": "A straight current-carrying wire of length 0.5m carries a current of 5A in a magnetic field of 0.2T, perpendicular to the wire. The force on the wire is:",
+      "o": [
+        "0.5 N",
+        "5 N",
+        "1 N",
+        "0.1 N"
+      ],
+      "a": 0,
+      "e": "F = BIL = 0.2 &times; 5 &times; 0.5 = 0.5N."
+    },
+    {
+      "q": "A current of 2A flows through a 10&Omega; resistor for 60 seconds. The heat generated is:",
+      "o": [
+        "4800 J",
+        "1200 J",
+        "2400 J",
+        "600 J"
+      ],
+      "a": 2,
+      "e": "H = I&sup2;Rt = (2)&sup2; &times; 10 &times; 60 = 2400J."
+    },
+    {
+      "q": "A 5&Omega; and 10&Omega; resistor are connected in series to a 12V battery. The current drawn from the battery is:",
+      "o": [
+        "2 A",
+        "0.8 A",
+        "1.2 A",
+        "0.6 A"
+      ],
+      "a": 1,
+      "e": "Total R = 15&Omega;. I = V/R = 12/15 = 0.8A."
+    },
+    {
+      "q": "According to the laws of reflection, when the angle of incidence increases, the angle of reflection:",
+      "o": [
+        "Decreases",
+        "Remains 90&deg;",
+        "Becomes zero",
+        "Increases equally"
+      ],
+      "a": 3,
+      "e": "Angle of incidence equals angle of reflection always."
+    },
+    {
+      "q": "The power of a lens is +2.5D. This lens is:",
+      "o": [
+        "Concave, with focal length 40 cm",
+        "Concave, with focal length 25 cm",
+        "Convex, with focal length 40 cm",
+        "Convex, with focal length 25 cm"
+      ],
+      "a": 2,
+      "e": "f = 1/P = 1/2.5 = 0.4m = 40cm. Positive power implies a convex lens."
+    },
+    {
+      "q": "In domestic wiring, the live wire, neutral wire, and earth wire are colour-coded respectively as:",
+      "o": [
+        "Red, black, green",
+        "Red, green, black",
+        "Black, red, green",
+        "Green, black, red"
+      ],
+      "a": 0,
+      "e": "Indian standard: Live = red, neutral = black, earth = green."
+    },
+    {
+      "q": "An electromagnet works on the principle that:",
+      "o": [
+        "Magnetic fields induce EMF only",
+        "Static charges create magnetic fields",
+        "A current-carrying solenoid behaves like a bar magnet",
+        "Permanent magnets attract iron"
+      ],
+      "a": 2,
+      "e": "A solenoid carrying current produces a magnetic field pattern similar to a bar magnet."
+    },
+    {
+      "q": "Which of the following correctly represents Ohm's Law under constant physical conditions?",
+      "o": [
+        "V = IR",
+        "I = VR",
+        "V = I/R",
+        "R = VI"
+      ],
+      "a": 0,
+      "e": "Ohm's law states V = IR."
+    },
+    {
+      "q": "A concave mirror produces a virtual, erect, and magnified image when the object is placed:",
+      "o": [
+        "Beyond the centre of curvature",
+        "Between focus and centre of curvature",
+        "At the focus",
+        "Between the pole and the focus"
+      ],
+      "a": 3,
+      "e": "Between pole and focus produces virtual, erect, and magnified images."
+    },
+    {
+      "q": "The SI unit of electric power is the watt, defined as:",
+      "o": [
+        "1 joule per coulomb",
+        "1 coulomb per second",
+        "1 ampere per volt",
+        "1 joule per second"
+      ],
+      "a": 3,
+      "e": "Power = Work/Time, so 1 watt = 1 joule/second."
+    },
+    {
+      "q": "Two identical resistors of resistance R each are first connected in series, then in parallel. The ratio of series to parallel equivalent resistance is:",
+      "o": [
+        "1:2",
+        "1:4",
+        "4:1",
+        "2:1"
+      ],
+      "a": 2,
+      "e": "Series = 2R, Parallel = R/2. Ratio = 2R : R/2 = 4:1."
+    }
+  ],
+  "chem": [
+    {
+      "q": "On heating, 50g of calcium carbonate (CaCO&sub3;) decomposes completely into CaO and CO&sub2;. The mass of CaO produced is (molar masses: CaCO&sub3;=100, CaO=56):",
+      "o": [
+        "56 g",
+        "50 g",
+        "22 g",
+        "28 g"
+      ],
+      "a": 3,
+      "e": "Moles of CaCO&sub3; = 0.5. Mass of CaO = 0.5 &times; 56 = 28g."
+    },
+    {
+      "q": "The balanced equation for the reaction of iron with steam is:",
+      "o": [
+        "Fe + 2H&sub2;O &rarr; FeO&sub2; + 2H&sub2;",
+        "2Fe + 3H&sub2;O &rarr; Fe&sub2;O&sub3; + 3H&sub2;",
+        "Fe + H&sub2;O &rarr; FeO + H&sub2;",
+        "3Fe + 4H&sub2;O &rarr; Fe&sub3;O&sub4; + 4H&sub2;"
+      ],
+      "a": 3,
+      "e": "Iron reacts with steam to form iron(II,III) oxide and hydrogen: 3Fe + 4H&sub2;O &rarr; Fe&sub3;O&sub4; + 4H&sub2;."
+    },
+    {
+      "q": "0.5 mol of NaOH is dissolved in water to make 250 mL of solution. The molarity of the solution is:",
+      "o": [
+        "2.0 M",
+        "1.0 M",
+        "0.5 M",
+        "0.125 M"
+      ],
+      "a": 0,
+      "e": "Molarity = moles / volume(L) = 0.5 / 0.250 = 2.0M."
+    },
+    {
+      "q": "In the reaction Zn + CuSO&sub4; &rarr; ZnSO&sub4; + Cu, zinc is acting as a:",
+      "o": [
+        "Catalyst",
+        "Neither, it is a double displacement",
+        "Reducing agent",
+        "Oxidizing agent"
+      ],
+      "a": 2,
+      "e": "Zinc loses electrons and reduces Cu&sup2;& to Cu, acting as a reducing agent."
+    },
+    {
+      "q": "Which of the following is an example of a redox reaction as well as a combination reaction?",
+      "o": [
+        "2Mg + O&sub2; &rarr; 2MgO",
+        "CaCO&sub3; &rarr; CaO + CO&sub2;",
+        "BaCl&sub2; + Na&sub2;SO&sub4; &rarr; BaSO&sub4; + 2NaCl",
+        "NaOH + HCl &rarr; NaCl + H&sub2;O"
+      ],
+      "a": 0,
+      "e": "2Mg + O&sub2; &rarr; 2MgO combines two substances and involves electron transfer."
+    },
+    {
+      "q": "The pH of a solution is 3. This solution is:",
+      "o": [
+        "Neutral",
+        "Strongly acidic",
+        "Strongly basic",
+        "Weakly acidic"
+      ],
+      "a": 1,
+      "e": "pH = 3 is well below 7, indicating strong acidity."
+    },
+    {
+      "q": "Which gas is evolved when dilute sulphuric acid reacts with sodium carbonate, and how is it tested?",
+      "o": [
+        "O&sub2;; relights a glowing splint",
+        "SO&sub2;; turns litmus red",
+        "CO&sub2;; turns lime water milky",
+        "H&sub2;; burns with a pop sound"
+      ],
+      "a": 2,
+      "e": "CO&sub2; turns freshly prepared lime water milky due to insoluble CaCO&sub3; formation."
+    },
+    {
+      "q": "Rancidity of oily/fatty food is prevented by adding:",
+      "o": [
+        "Reducing agents that generate heat",
+        "Preservative acids only",
+        "Emulsifiers",
+        "Antioxidants"
+      ],
+      "a": 3,
+      "e": "Antioxidants prevent oxidation of fats and oils."
+    },
+    {
+      "q": "In the electrolytic refining of copper, impure copper is used as the:",
+      "o": [
+        "Salt bridge",
+        "Anode",
+        "Electrolyte",
+        "Cathode"
+      ],
+      "a": 1,
+      "e": "Impure copper acts as the anode in electrorefining."
+    },
+    {
+      "q": "The chemical formula and common name of washing soda are:",
+      "o": [
+        "Na&sub2;CO&sub3;&middot;10H&sub2;O",
+        "CaOCl&sub2;",
+        "NaHCO&sub3;",
+        "Na&sub2;SO&sub4;&middot;10H&sub2;O"
+      ],
+      "a": 0,
+      "e": "Washing soda is sodium carbonate decahydrate, Na&sub2;CO&sub3;&middot;10H&sub2;O."
+    },
+    {
+      "q": "Which of the following correctly ranks metal reactivity from most to least reactive: K, Ca, Al, Cu?",
+      "o": [
+        "Ca > K > Cu > Al",
+        "Cu > Al > Ca > K",
+        "K > Ca > Al > Cu",
+        "Al > K > Ca > Cu"
+      ],
+      "a": 2,
+      "e": "Potassium is most reactive, followed by calcium, aluminium, and copper."
+    },
+    {
+      "q": "A compound X is used in the preparation of baking powder and its formula is NaHCO&sub3;. On heating, it decomposes to give:",
+      "o": [
+        "Na&sub2;O and H&sub2;O only",
+        "Na&sub2;CO&sub3;, H&sub2;O, and CO&sub2;",
+        "NaOH and CO&sub2; only",
+        "NaCl and CO&sub2;"
+      ],
+      "a": 1,
+      "e": "2NaHCO&sub3; &rarr; Na&sub2;CO&sub3; + H&sub2;O + CO&sub2;."
+    },
+    {
+      "q": "During the process of corrosion of iron (rusting), iron reacts with:",
+      "o": [
+        "Oxygen and moisture together",
+        "Only dry oxygen",
+        "Only carbon dioxide",
+        "Only water without oxygen"
+      ],
+      "a": 0,
+      "e": "Rusting requires both oxygen and moisture simultaneously."
+    },
+    {
+      "q": "An aqueous solution turns red litmus blue. On adding excess of this solution to dilute hydrochloric acid, the pH of the resulting mixture will:",
+      "o": [
+        "Increase towards 7 and possibly beyond",
+        "Remain unchanged",
+        "Decrease further below 7",
+        "Stay exactly at 1"
+      ],
+      "a": 0,
+      "e": "Adding excess base neutralizes the acid and pushes the pH up."
+    },
+    {
+      "q": "Which of these is NOT a correct observation when a strip of magnesium ribbon is burnt in air?",
+      "o": [
+        "It burns with a dim red flame",
+        "It burns with a dazzling white flame",
+        "A white powder (MgO) is formed",
+        "The reaction is exothermic"
+      ],
+      "a": 0,
+      "e": "Magnesium burns with a dazzling white flame, not a dim red flame."
+    }
+  ],
+  "bio": [
+    {
+      "q": "In human beings, the process of digestion of starch begins in the mouth due to the enzyme:",
+      "o": [
+        "Trypsin",
+        "Salivary amylase",
+        "Lipase",
+        "Pepsin"
+      ],
+      "a": 1,
+      "e": "Salivary amylase starts breaking down starch into maltose in the mouth."
+    },
+    {
+      "q": "The functional unit of the kidney responsible for filtration of blood is the:",
+      "o": [
+        "Nephron",
+        "Neuron",
+        "Villus",
+        "Alveolus"
+      ],
+      "a": 0,
+      "e": "The nephron is the structural and functional unit of the kidney."
+    },
+    {
+      "q": "Which hormone is responsible for the 'fight or flight' response in humans?",
+      "o": [
+        "Growth hormone",
+        "Adrenaline",
+        "Thyroxine",
+        "Insulin"
+      ],
+      "a": 1,
+      "e": "Adrenaline prepares the body for stressful or emergency situations."
+    },
+    {
+      "q": "In a pea plant cross Tt &times; Tt (T=tall, dominant; t=dwarf, recessive), the phenotypic ratio of offspring is:",
+      "o": [
+        "All tall",
+        "1 tall : 3 dwarf",
+        "1 tall : 1 dwarf",
+        "3 tall : 1 dwarf"
+      ],
+      "a": 3,
+      "e": "Tt &times; Tt yields 3 tall : 1 dwarf phenotypically."
+    },
+    {
+      "q": "The part of the human brain that controls involuntary actions like heartbeat and breathing is the:",
+      "o": [
+        "Cerebrum",
+        "Cerebellum",
+        "Hypothalamus",
+        "Medulla oblongata"
+      ],
+      "a": 3,
+      "e": "The medulla oblongata regulates critical involuntary functions."
+    },
+    {
+      "q": "During photosynthesis, the light reaction takes place in the ______ of the chloroplast, while the dark reaction occurs in the ______.",
+      "o": [
+        "Nucleus; cytoplasm",
+        "Stroma; thylakoid membrane",
+        "Cell wall; cell membrane",
+        "Thylakoid membrane; stroma"
+      ],
+      "a": 3,
+      "e": "Light-dependent reactions occur in thylakoids; Calvin cycle occurs in the stroma."
+    },
+    {
+      "q": "Which of the following blood vessels carries oxygenated blood from the lungs to the heart?",
+      "o": [
+        "Vena cava",
+        "Pulmonary artery",
+        "Aorta",
+        "Pulmonary vein"
+      ],
+      "a": 3,
+      "e": "The pulmonary vein is unique in carrying oxygenated blood to the left atrium."
+    },
+    {
+      "q": "In humans, the sex of a child is determined by the chromosome contributed by the:",
+      "o": [
+        "Father (X or Y)",
+        "Mother (always X)",
+        "Both parents equally",
+        "Neither, it's environmental"
+      ],
+      "a": 0,
+      "e": "Fathers contribute either an X or Y chromosome, determining the child's sex."
+    },
+    {
+      "q": "The process by which plants lose excess water in the form of vapour through stomata is called:",
+      "o": [
+        "Translocation",
+        "Photolysis",
+        "Transpiration",
+        "Respiration"
+      ],
+      "a": 2,
+      "e": "Transpiration is the evaporation of water from plant leaves through stomata."
+    },
+    {
+      "q": "Which of the following is a vector-borne disease transmitted by the female Anopheles mosquito?",
+      "o": [
+        "Typhoid",
+        "Malaria",
+        "Cholera",
+        "Tuberculosis"
+      ],
+      "a": 1,
+      "e": "Malaria is transmitted by infected female Anopheles mosquitoes."
+    },
+    {
+      "q": "In the human female reproductive system, fertilisation of the egg by sperm normally occurs in the:",
+      "o": [
+        "Fallopian tube (oviduct)",
+        "Uterus",
+        "Vagina",
+        "Ovary"
+      ],
+      "a": 0,
+      "e": "Fertilisation typically takes place in the fallopian tube."
+    },
+    {
+      "q": "Which of the following correctly describes the role of stomata guard cells?",
+      "o": [
+        "They produce chlorophyll for the leaf",
+        "They regulate opening and closing of stomatal pores for gas exchange",
+        "They store starch for photosynthesis",
+        "They transport water upward from roots"
+      ],
+      "a": 1,
+      "e": "Guard cells control the opening and closing of stomatal pores."
+    },
+    {
+      "q": "Which of the following is NOT a method of vegetative propagation in plants?",
+      "o": [
+        "Cutting",
+        "Grafting",
+        "Formation of seeds via fertilisation",
+        "Layering"
+      ],
+      "a": 2,
+      "e": "Seed formation is sexual reproduction, whereas cutting, grafting, and layering are vegetative."
+    },
+    {
+      "q": "The enzyme pepsin, active in the stomach, works best in which pH environment?",
+      "o": [
+        "Acidic (around pH 1.5&ndash;2)",
+        "Basic (pH 9&ndash;10)",
+        "Highly basic (pH 12+)",
+        "Neutral (pH 7)"
+      ],
+      "a": 0,
+      "e": "Pepsin operates optimally in the strong acidic environment of the stomach."
+    },
+    {
+      "q": "In a food chain: Grass &rarr; Grasshopper &rarr; Frog &rarr; Snake &rarr; Eagle, the grasshopper occupies which trophic level?",
+      "o": [
+        "Secondary consumer",
+        "Producer",
+        "Primary consumer",
+        "Tertiary consumer"
+      ],
+      "a": 2,
+      "e": "Grasshoppers eat producers directly, making them primary consumers."
+    }
+  ]
+}
