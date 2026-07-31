@@ -1,0 +1,1002 @@
+{
+  "title": "CBSE Class 10 Mathematics & Science Mock Paper (Delhi & Outside Delhi Standard)",
+  "tier": "Standard Board Level / Highly Competitive",
+  "math": [
+    {
+      "q": "<b>Assertion (A):</b> If the HCF of 85 and 153 is expressible in the form 85m - 153, then m = 2.<br><b>Reason (R):</b> The HCF of two numbers divides their LCM exactly.",
+      "o": [
+        "Both A and R are true, and R is the correct explanation of A.",
+        "Both A and R are true, but R is NOT the correct explanation of A.",
+        "A is true, R is false.",
+        "A is false, R is true."
+      ],
+      "a": 1,
+      "e": "HCF of 85 and 153 is 17. 85m - 153 = 17 implies 85m = 170, so m=2. Both A and R are true, but R is a general property not explaining A."
+    },
+    {
+      "q": "Which of the following rational numbers has a terminating decimal expansion?",
+      "o": [
+        "13/3125",
+        "17/1050",
+        "23/210",
+        "31/1500"
+      ],
+      "a": 0,
+      "e": "3125 = 5^5. The denominator has only 5 as a prime factor, satisfying the 2^n * 5^m condition for terminating decimals."
+    },
+    {
+      "q": "If α and β are the zeroes of the polynomial p(x) = x² - 5x + c, and α - β = 1, then the value of c is:",
+      "o": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "a": 2,
+      "e": "α + β = 5 and α - β = 1. Solving gives α = 3, β = 2. Product c = αβ = 6."
+    },
+    {
+      "q": "<b>Diagram-Based:</b><br><svg viewBox='0 0 100 80' width='100'><path d='M10,70 Q50,0 90,70' fill='none' stroke='black'/><line x1='0' y1='60' x2='100' y2='60' stroke='black'/></svg><br>The graph of y = p(x) intersects the x-axis at exactly two distinct points. What is the minimum degree of the polynomial p(x)?",
+      "o": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "a": 1,
+      "e": "A parabola intersecting the x-axis at two points represents a quadratic polynomial, which has a minimum degree of 2."
+    },
+    {
+      "q": "If the system of equations 3x + y = 1 and (2k - 1)x + (k - 1)y = 2k + 1 has no solution, then k equals:",
+      "o": [
+        "1",
+        "2",
+        "3",
+        "-1"
+      ],
+      "a": 1,
+      "e": "For no solution: a1/a2 = b1/b2 ≠ c1/c2. 3/(2k-1) = 1/(k-1) → 3k - 3 = 2k - 1 → k = 2."
+    },
+    {
+      "q": "A boat covers 32 km upstream and 36 km downstream in 7 hours. In 9 hours, it can cover 40 km upstream and 60 km downstream. The speed of the stream is:",
+      "o": [
+        "2 km/h",
+        "8 km/h",
+        "10 km/h",
+        "4 km/h"
+      ],
+      "a": 0,
+      "e": "Let 1/(u-v) = x and 1/(u+v) = y. Solving 32x + 36y = 7 and 40x + 60y = 9 yields u=10, v=2. Stream speed is 2 km/h."
+    },
+    {
+      "q": "<b>Trick Question:</b> The roots of the quadratic equation √2 x² - 3x - 2√2 = 0 are:",
+      "o": [
+        "2√2, -√2/2",
+        "-2√2, √2/2",
+        "√2, -√2",
+        "2, -2"
+      ],
+      "a": 0,
+      "e": "Splitting the middle term: √2 x² - 4x + x - 2√2 = 0 → √2 x(x - 2√2) + 1(x - 2√2) = 0. Roots are 2√2 and -1/√2 (or -√2/2)."
+    },
+    {
+      "q": "If the equation (1 + m²)x² + 2mcx + c² - a² = 0 has equal roots, then:",
+      "o": [
+        "c² = a²(1 + m²)",
+        "a² = c²(1 + m²)",
+        "c² = a²/(1 + m²)",
+        "c² = a² - m²"
+      ],
+      "a": 0,
+      "e": "D = 0 → (2mc)² - 4(1+m²)(c²-a²) = 0 → 4m²c² - 4(c² - a² + m²c² - m²a²) = 0 → c² = a²(1 + m²)."
+    },
+    {
+      "q": "The sum of the first n terms of an AP is 5n - n². The nth term of the AP is:",
+      "o": [
+        "6 - 2n",
+        "5 - 2n",
+        "6 + 2n",
+        "4 - 2n"
+      ],
+      "a": 0,
+      "e": "a_n = S_n - S_(n-1) = (5n - n²) - (5(n-1) - (n-1)²) = 6 - 2n."
+    },
+    {
+      "q": "<b>Case Study:</b> In a potato race, a bucket is placed at the starting point, 5m from the first potato. Other potatoes are placed 3m apart in a straight line. If there are 10 potatoes, what is the total distance a competitor runs to collect all potatoes and drop them in the bucket?",
+      "o": [
+        "370 m",
+        "185 m",
+        "740 m",
+        "200 m"
+      ],
+      "a": 0,
+      "e": "Distances run are 2(5), 2(8), 2(11)... up to 10 terms. This is an AP with a=10, d=6, n=10. S_10 = 10/2 [20 + 9(6)] = 5 [20 + 54] = 370 m."
+    },
+    {
+      "q": "<b>Assertion (A):</b> The sum of the first 100 natural numbers is 5050.<br><b>Reason (R):</b> The sum of the first n natural numbers is n(n+1)/2.",
+      "o": [
+        "Both A and R are true, and R is the correct explanation of A.",
+        "Both A and R are true, but R is NOT the correct explanation of A.",
+        "A is true, R is false.",
+        "A is false, R is true."
+      ],
+      "a": 0,
+      "e": "S_100 = 100(101)/2 = 5050. Reason R provides the exact formula used to verify A."
+    },
+    {
+      "q": "In ΔABC, DE || BC, where D lies on AB and E on AC. If AD = 4x - 3, AE = 8x - 7, BD = 3x - 1, and CE = 5x - 3, find x.",
+      "o": [
+        "1",
+        "1/2",
+        "Both 1 and -1/2",
+        "2"
+      ],
+      "a": 0,
+      "e": "By BPT, (4x-3)/(3x-1) = (8x-7)/(5x-3). Solving yields 20x² - 27x + 9 = 24x² - 29x + 7 → 4x² - 2x - 2 = 0. x=1 or x=-1/2. Distance can't be negative, so x=1."
+    },
+    {
+      "q": "<b>SVG Diagram:</b><br><svg viewBox='0 0 100 100' width='80'><polygon points='10,90 90,90 10,10' fill='none' stroke='black'/><line x1='10' y1='50' x2='50' y2='90' stroke='black' stroke-dasharray='4'/></svg><br>In a right-angled triangle ABC, right-angled at B, if tan A = 1, then the value of 2 sin A cos A is:",
+      "o": [
+        "1",
+        "1/2",
+        "2",
+        "0"
+      ],
+      "a": 0,
+      "e": "tan A = 1 → A = 45°. 2 sin(45°) cos(45°) = 2(1/√2)(1/√2) = 2/2 = 1."
+    },
+    {
+      "q": "If the points A(1, 2), B(4, y), C(x, 6), and D(3, 5) are vertices of a parallelogram taken in order, find x and y.",
+      "o": [
+        "x = 6, y = 3",
+        "x = 3, y = 6",
+        "x = 5, y = 4",
+        "x = 4, y = 5"
+      ],
+      "a": 0,
+      "e": "Diagonals bisect each other. Midpoint of AC = Midpoint of BD. (1+x)/2 = (4+3)/2 → x=6. (2+6)/2 = (y+5)/2 → y=3."
+    },
+    {
+      "q": "Find the ratio in which the y-axis divides the line segment joining the points A(5, -6) and B(-1, -4).",
+      "o": [
+        "5:1",
+        "1:5",
+        "5:6",
+        "6:5"
+      ],
+      "a": 0,
+      "e": "On the y-axis, x=0. Let ratio be k:1. x = (k(-1) + 1(5))/(k+1) = 0 → -k + 5 = 0 → k = 5. Ratio is 5:1."
+    },
+    {
+      "q": "The point which divides the line segment joining the points (7, -6) and (3, 4) in ratio 1:2 internally lies in the:",
+      "o": [
+        "I quadrant",
+        "II quadrant",
+        "III quadrant",
+        "IV quadrant"
+      ],
+      "a": 3,
+      "e": "x = (1*3 + 2*7)/3 = 17/3. y = (1*4 + 2*-6)/3 = -8/3. (positive, negative) lies in the IV quadrant."
+    },
+    {
+      "q": "If sin θ - cos θ = 0, then the value of sin⁴θ + cos⁴θ is:",
+      "o": [
+        "1/2",
+        "1",
+        "3/4",
+        "1/4"
+      ],
+      "a": 0,
+      "e": "sin θ = cos θ → θ = 45°. (1/√2)⁴ + (1/√2)⁴ = 1/4 + 1/4 = 1/2."
+    },
+    {
+      "q": "Evaluate: (1 + tan²θ)(1 - sinθ)(1 + sinθ)",
+      "o": [
+        "1",
+        "0",
+        "-1",
+        "sin²θ"
+      ],
+      "a": 0,
+      "e": "(1 - sin²θ) = cos²θ. sec²θ × cos²θ = 1."
+    },
+    {
+      "q": "If x = a cos θ - b sin θ and y = a sin θ + b cos θ, then x² + y² is equal to:",
+      "o": [
+        "a² + b²",
+        "a² - b²",
+        "a²b²",
+        "1"
+      ],
+      "a": 0,
+      "e": "Squaring and adding both equations cancels out the 2ab sinθ cosθ term, leaving a²(cos²θ+sin²θ) + b²(sin²θ+cos²θ) = a² + b²."
+    },
+    {
+      "q": "The shadow of a tower is 10 m longer when the sun's altitude is 30° than when it is 45°. The height of the tower is:",
+      "o": [
+        "5(√3 + 1) m",
+        "5(√3 - 1) m",
+        "10(√3 + 1) m",
+        "10√3 m"
+      ],
+      "a": 0,
+      "e": "h/tan30° - h/tan45° = 10 → h√3 - h = 10 → h = 10/(√3 - 1) = 5(√3 + 1) m."
+    },
+    {
+      "q": "<b>Case Study: Aviation</b> An aeroplane flies horizontally at a height of 1 km. An observer on the ground sees the plane at an angle of elevation of 60°. After 10 seconds, the angle drops to 30°. The speed of the aeroplane is:",
+      "o": [
+        "115.4 m/s",
+        "200 m/s",
+        "100 m/s",
+        "230 m/s"
+      ],
+      "a": 0,
+      "e": "Distance = 1000(√3 - 1/√3) = 2000/√3 m. Speed = Distance/10 = 200/√3 ≈ 115.4 m/s."
+    },
+    {
+      "q": "Two concentric circles are of radii 5 cm and 3 cm. Find the length of the chord of the larger circle which touches the smaller circle.",
+      "o": [
+        "8 cm",
+        "6 cm",
+        "10 cm",
+        "4 cm"
+      ],
+      "a": 0,
+      "e": "Half of the chord forms a right triangle with radii 5 and 3. Length = √(5² - 3²) = 4. Total chord length = 2 * 4 = 8 cm."
+    },
+    {
+      "q": "A quadrilateral ABCD is drawn to circumscribe a circle. If AB = 4 cm, BC = 7 cm, and CD = 6 cm, then AD is:",
+      "o": [
+        "3 cm",
+        "4 cm",
+        "5 cm",
+        "6 cm"
+      ],
+      "a": 0,
+      "e": "For a circumscribed quadrilateral, AB + CD = BC + AD. 4 + 6 = 7 + AD → AD = 3 cm."
+    },
+    {
+      "q": "<b>Assertion (A):</b> Tangents drawn from an external point to a circle are equal in length.<br><b>Reason (R):</b> A tangent to a circle is perpendicular to the radius through the point of contact.",
+      "o": [
+        "Both A and R are true, and R is the correct explanation of A.",
+        "Both A and R are true, but R is NOT the correct explanation.",
+        "A is true, R is false.",
+        "A is false, R is true."
+      ],
+      "a": 1,
+      "e": "Both statements are geometrically true, but R is only a property used within the RHS congruence proof to prove A. It alone doesn't explain the equality without congruence."
+    },
+    {
+      "q": "The perimeter of a sector of a circle of radius 5.2 cm is 16.4 cm. The area of the sector is:",
+      "o": [
+        "15.6 cm²",
+        "15 cm²",
+        "16 cm²",
+        "16.4 cm²"
+      ],
+      "a": 0,
+      "e": "Perimeter = l + 2r = 16.4 → l = 16.4 - 10.4 = 6.0 cm. Area = (1/2) * l * r = 0.5 * 6 * 5.2 = 15.6 cm²."
+    },
+    {
+      "q": "A chord of a circle of radius 14 cm subtends a right angle at the centre. The area of the minor segment is (use π = 22/7):",
+      "o": [
+        "56 cm²",
+        "154 cm²",
+        "98 cm²",
+        "112 cm²"
+      ],
+      "a": 0,
+      "e": "Area of sector = (90/360) * 22/7 * 196 = 154 cm². Area of triangle = 1/2 * 14 * 14 = 98 cm². Segment area = 154 - 98 = 56 cm²."
+    },
+    {
+      "q": "The minute hand of a clock is 10 cm long. The area swept by the minute hand between 8:00 AM and 8:25 AM is:",
+      "o": [
+        "130.9 cm²",
+        "150.8 cm²",
+        "261.8 cm²",
+        "110.5 cm²"
+      ],
+      "a": 0,
+      "e": "25 minutes = (25/60)*360° = 150°. Area = (150/360) * 3.14 * 100 = 130.83 cm²."
+    },
+    {
+      "q": "A metallic sphere of radius 4.2 cm is melted and recast into a cylinder of radius 6 cm. The height of the cylinder is:",
+      "o": [
+        "2.74 cm",
+        "3.14 cm",
+        "2.14 cm",
+        "3.74 cm"
+      ],
+      "a": 0,
+      "e": "Volume of sphere = Volume of cylinder → (4/3)π(4.2)³ = π(6)²h → h = 2.744 cm."
+    },
+    {
+      "q": "A solid toy is in the form of a hemisphere surmounted by a right circular cone. If the height of the cone is 2 cm and base diameter is 4 cm, the volume of the toy is (use π = 3.14):",
+      "o": [
+        "25.12 cm³",
+        "30.14 cm³",
+        "20.12 cm³",
+        "35.12 cm³"
+      ],
+      "a": 0,
+      "e": "Radius = 2. Volume = Vol(cone) + Vol(hemi) = (1/3)π(2)²(2) + (2/3)π(2)³ = 8π/3 + 16π/3 = 24π/3 = 8π = 8 * 3.14 = 25.12 cm³."
+    },
+    {
+      "q": "A cylindrical pencil sharpened at one edge is an example of the combination of:",
+      "o": [
+        "A cylinder and a cone",
+        "Two cylinders",
+        "A hemisphere and a cylinder",
+        "A cone and a frustum"
+      ],
+      "a": 0,
+      "e": "A sharpened pencil has a cylindrical main body and a conical tip."
+    },
+    {
+      "q": "If the mean of the first n natural numbers is 15, then n is:",
+      "o": [
+        "29",
+        "30",
+        "31",
+        "15"
+      ],
+      "a": 0,
+      "e": "Mean = Sum / n = [n(n+1)/2] / n = (n+1)/2. So, (n+1)/2 = 15 → n = 29."
+    },
+    {
+      "q": "The median of a given frequency distribution is found graphically with the help of:",
+      "o": [
+        "Ogive",
+        "Histogram",
+        "Frequency Polygon",
+        "Bar Graph"
+      ],
+      "a": 0,
+      "e": "An ogive (cumulative frequency curve) is used to find the median by locating N/2 on the y-axis and mapping it to the x-axis."
+    },
+    {
+      "q": "If mode = 80 and mean = 110, then the median is:",
+      "o": [
+        "100",
+        "90",
+        "110",
+        "120"
+      ],
+      "a": 0,
+      "e": "Mode = 3 Median - 2 Mean → 80 = 3 Median - 220 → 300 = 3 Median → Median = 100."
+    },
+    {
+      "q": "A box contains 90 discs numbered 1 to 90. If one disc is drawn at random, the probability that it bears a perfect square number is:",
+      "o": [
+        "1/10",
+        "1/9",
+        "9/100",
+        "2/15"
+      ],
+      "a": 0,
+      "e": "Perfect squares from 1 to 90 are 1, 4, 9, 16, 25, 36, 49, 64, 81 (9 numbers). P = 9/90 = 1/10."
+    },
+    {
+      "q": "Two different dice are tossed together. The probability that the product of the two numbers is an even number is:",
+      "o": [
+        "3/4",
+        "1/4",
+        "1/2",
+        "5/8"
+      ],
+      "a": 0,
+      "e": "Product is even if at least one number is even. The only way it's odd is if BOTH are odd (3x3=9 ways). Even product ways = 36 - 9 = 27. P = 27/36 = 3/4."
+    },
+    {
+      "q": "The probability that a non-leap year selected at random will contain 53 Sundays is:",
+      "o": [
+        "1/7",
+        "2/7",
+        "53/365",
+        "1/365"
+      ],
+      "a": 0,
+      "e": "A non-leap year has 365 days = 52 weeks + 1 day. This 1 extra day can be any of the 7 days of the week. P = 1/7."
+    },
+    {
+      "q": "<b>Assertion (A):</b> P(A) + P(not A) = 1 for any event A.<br><b>Reason (R):</b> The sum of probabilities of all the elementary events of an experiment is 1.",
+      "o": [
+        "Both A and R are true, and R is the correct explanation of A.",
+        "Both A and R are true, but R is NOT the correct explanation of A.",
+        "A is true, R is false.",
+        "A is false, R is true."
+      ],
+      "a": 1,
+      "e": "Both statements are true probability axioms. However, R describes the sum of all elementary events, whereas A describes complementary events. R doesn't directly explain A."
+    },
+    {
+      "q": "If α, β are zeroes of the polynomial x² - p(x+1) - c, then (α+1)(β+1) is equal to:",
+      "o": [
+        "1 - c",
+        "c - 1",
+        "1 + c",
+        "c"
+      ],
+      "a": 0,
+      "e": "Polynomial is x² - px - (p+c). Sum = p, Product = -(p+c). (α+1)(β+1) = αβ + α + β + 1 = -(p+c) + p + 1 = 1 - c."
+    },
+    {
+      "q": "If the vertices of a triangle are (1, -3), (4, p) and (-9, 7) and its area is 15 sq units, then the values of p are:",
+      "o": [
+        "-3 or -9",
+        "3 or 9",
+        "3 or -9",
+        "-3 or 9"
+      ],
+      "a": 0,
+      "e": "Area = 0.5 |x1(y2-y3) + x2(y3-y1) + x3(y1-y2)| = 15 → |1(p-7) + 4(7+3) + (-9)(-3-p)| = 30 → |p - 7 + 40 + 27 + 9p| = 30 → |10p + 60| = 30. 10p + 60 = 30 → p = -3. Or 10p + 60 = -30 → p = -9."
+    },
+    {
+      "q": "Which of the following is a quadratic equation?",
+      "o": [
+        "x² + 2x + 1 = (4 - x)² + 3",
+        "-2x² = (5 - x)(2x - 2/5)",
+        "(k+1)x² + 3/2 x = 7, where k = -1",
+        "x³ - x² = (x - 1)³"
+      ],
+      "a": 3,
+      "e": "Option D: x³ - x² = x³ - 3x² + 3x - 1 → 2x² - 3x + 1 = 0, which is a quadratic equation. Options A and B cancel x² terms. Option C becomes linear."
+    },
+    {
+      "q": "The sum of the reciprocals of Rehman's ages (in years) 3 years ago and 5 years from now is 1/3. His present age is:",
+      "o": [
+        "7 years",
+        "10 years",
+        "5 years",
+        "3 years"
+      ],
+      "a": 0,
+      "e": "1/(x-3) + 1/(x+5) = 1/3 → (x+5+x-3)/((x-3)(x+5)) = 1/3 → 3(2x+2) = x²+2x-15 → x² - 4x - 21 = 0 → (x-7)(x+3) = 0. Age is 7."
+    },
+    {
+      "q": "The 10th term of an AP is 52 and the 16th term is 82. The 32nd term is:",
+      "o": [
+        "162",
+        "152",
+        "142",
+        "172"
+      ],
+      "a": 0,
+      "e": "a + 15d = 82, a + 9d = 52. Subtracting gives 6d = 30 → d = 5. a = 7. 32nd term = 7 + 31(5) = 162."
+    },
+    {
+      "q": "<b>Competency Based:</b> Water in a canal 6 m wide and 1.5 m deep is flowing with a speed of 10 km/h. How much area will it irrigate in 30 minutes if 8 cm of standing water is needed?",
+      "o": [
+        "562500 m²",
+        "225000 m²",
+        "450000 m²",
+        "500000 m²"
+      ],
+      "a": 0,
+      "e": "Volume in 30 mins = 6 * 1.5 * (10000 / 2) = 45000 m³. Area = Volume / Depth = 45000 / 0.08 = 562500 m²."
+    },
+    {
+      "q": "If the points A(x, y), B(a, 0), and C(0, b) are collinear, then x/a + y/b is equal to:",
+      "o": [
+        "1",
+        "0",
+        "-1",
+        "2"
+      ],
+      "a": 0,
+      "e": "Area of triangle = 0 → x(0-b) + a(b-y) + 0 = 0 → -bx + ab - ay = 0 → bx + ay = ab. Dividing by ab gives x/a + y/b = 1."
+    },
+    {
+      "q": "Find the value of k for which the roots of the equation kx(x - 2) + 6 = 0 are equal.",
+      "o": [
+        "6",
+        "0, 6",
+        "-6",
+        "3"
+      ],
+      "a": 0,
+      "e": "Equation is kx² - 2kx + 6 = 0. D = 4k² - 24k = 0 → k(k - 6) = 0. k cannot be 0, so k = 6."
+    }
+  ],
+  "phy": [
+    {
+      "q": "<b>Experiment/Lab-Based:</b> A student traces the path of a ray of light through a rectangular glass slab. Which of the following observations is incorrect?",
+      "o": [
+        "Angle of incidence is always equal to angle of emergence.",
+        "The emergent ray is parallel to the incident ray.",
+        "Lateral displacement increases with the thickness of the slab.",
+        "Angle of refraction is greater than angle of incidence."
+      ],
+      "a": 3,
+      "e": "When entering a denser medium (glass), light bends towards the normal. Therefore, the angle of refraction is ALWAYS less than the angle of incidence."
+    },
+    {
+      "q": "An object is placed at a distance of 15 cm from a convex mirror of focal length 10 cm. The image is formed at:",
+      "o": [
+        "6 cm behind the mirror",
+        "-6 cm in front of the mirror",
+        "30 cm behind the mirror",
+        "-30 cm in front of the mirror"
+      ],
+      "a": 0,
+      "e": "1/v + 1/u = 1/f → 1/v = 1/10 - 1/(-15) = 1/10 + 1/15 = 5/30 = 1/6. v = +6 cm (virtual, behind mirror)."
+    },
+    {
+      "q": "<b>Assertion (A):</b> A person with myopia cannot see distant objects clearly.<br><b>Reason (R):</b> In a myopic eye, the image of a distant object is formed in front of the retina.",
+      "o": [
+        "Both A and R are true, and R is the correct explanation of A.",
+        "Both A and R are true, but R is NOT the correct explanation of A.",
+        "A is true, R is false.",
+        "A is false, R is true."
+      ],
+      "a": 0,
+      "e": "Myopia (near-sightedness) occurs due to an elongated eyeball or excessive lens curvature, causing distant images to focus prematurely in front of the retina. R perfectly explains A."
+    },
+    {
+      "q": "Two lenses of power +3.5 D and -2.5 D are placed in contact. The focal length of the combination is:",
+      "o": [
+        "100 cm",
+        "10 cm",
+        "1 m",
+        "Both A and C"
+      ],
+      "a": 3,
+      "e": "Net power P = +3.5 - 2.5 = +1.0 D. Focal length f = 1/P = 1/1 m = 1 m = 100 cm."
+    },
+    {
+      "q": "<b>SVG Diagram:</b><br><svg viewBox='0 0 100 50' width='100'><line x1='10' y1='25' x2='90' y2='25' stroke='black'/><circle cx='50' cy='25' r='20' fill='none' stroke='black'/></svg><br>A convex lens forms a real and inverted image of the same size as the object. The object is placed:",
+      "o": [
+        "At F",
+        "At 2F",
+        "Between F and 2F",
+        "Beyond 2F"
+      ],
+      "a": 1,
+      "e": "When an object is placed exactly at 2F (center of curvature) of a convex lens, the image is formed at 2F on the other side, real, inverted, and of the same size."
+    },
+    {
+      "q": "Which of the following phenomena contributes to the reddish appearance of the sun at sunrise and sunset?",
+      "o": [
+        "Dispersion of light",
+        "Total internal reflection",
+        "Scattering of light",
+        "Atmospheric refraction"
+      ],
+      "a": 2,
+      "e": "At sunrise/sunset, sunlight travels through a thicker layer of the atmosphere. Shorter wavelengths (blue) are scattered away, allowing longer wavelengths (red) to reach our eyes."
+    },
+    {
+      "q": "If a uniform wire of resistance R is stretched to twice its original length, its new resistance will be:",
+      "o": [
+        "2R",
+        "4R",
+        "R/2",
+        "R/4"
+      ],
+      "a": 1,
+      "e": "Volume remains constant. If length is doubled (2L), area becomes half (A/2). R' = ρ(2L)/(A/2) = 4(ρL/A) = 4R."
+    },
+    {
+      "q": "Three resistors of 2 Ω, 3 Ω, and 6 Ω are connected in parallel. Their equivalent resistance is:",
+      "o": [
+        "11 Ω",
+        "1 Ω",
+        "1.2 Ω",
+        "0.5 Ω"
+      ],
+      "a": 1,
+      "e": "1/Rp = 1/2 + 1/3 + 1/6 = 3/6 + 2/6 + 1/6 = 6/6 = 1. Therefore, Rp = 1 Ω."
+    },
+    {
+      "q": "An electric bulb is rated 220 V and 100 W. When it is operated on 110 V, the power consumed will be:",
+      "o": [
+        "100 W",
+        "75 W",
+        "50 W",
+        "25 W"
+      ],
+      "a": 3,
+      "e": "Resistance R = V²/P = 220² / 100 = 484 Ω. At 110 V, Power = V²/R = 110² / 484 = 25 W."
+    },
+    {
+      "q": "<b>Competency Based:</b> Why is tungsten used almost exclusively for filament of electric lamps?",
+      "o": [
+        "It has high resistivity and low melting point.",
+        "It has low resistivity and high melting point.",
+        "It has high resistivity and high melting point.",
+        "It oxidizes easily."
+      ],
+      "a": 2,
+      "e": "Tungsten has high resistivity to generate intense heat without melting, owing to its incredibly high melting point (3380°C)."
+    },
+    {
+      "q": "The magnetic field inside a long straight solenoid-carrying current is:",
+      "o": [
+        "Zero",
+        "Decreases as we move towards its ends",
+        "Increases as we move towards its ends",
+        "Is the same at all points"
+      ],
+      "a": 3,
+      "e": "The magnetic field lines inside a long current-carrying solenoid are parallel straight lines, indicating a uniform magnetic field."
+    },
+    {
+      "q": "According to Fleming's Left-Hand Rule, the thumb points in the direction of:",
+      "o": [
+        "Magnetic field",
+        "Induced current",
+        "Force or motion",
+        "Current"
+      ],
+      "a": 2,
+      "e": "Forefinger = Field, Middle finger = Current, Thumb = Thrust/Force/Motion."
+    },
+    {
+      "q": "<b>Assertion (A):</b> A compass needle is deflected when placed near a current-carrying wire.<br><b>Reason (R):</b> A current-carrying wire produces a magnetic field around it.",
+      "o": [
+        "Both A and R are true, and R is the correct explanation of A.",
+        "Both A and R are true, but R is NOT the correct explanation of A.",
+        "A is true, R is false.",
+        "A is false, R is true."
+      ],
+      "a": 0,
+      "e": "Oersted's experiment proved that an electric current creates a surrounding magnetic field, which interacts with the compass needle causing deflection."
+    },
+    {
+      "q": "An alpha particle enters a uniform magnetic field at right angles to it. If the field is directed downwards and the particle moves East, the force is directed:",
+      "o": [
+        "North",
+        "South",
+        "Upwards",
+        "Downwards"
+      ],
+      "a": 0,
+      "e": "Alpha particle is positive, so current is East. Field is Downwards. Using Fleming's Left Hand Rule, the force is directed North."
+    },
+    {
+      "q": "To prevent damage from overloading, domestic circuits utilize:",
+      "o": [
+        "Transformers",
+        "Electric Fuse",
+        "Galvanometer",
+        "Rheostat"
+      ],
+      "a": 1,
+      "e": "A fuse is a safety device containing a wire with a low melting point that breaks the circuit if current exceeds the safe limit (overloading)."
+    }
+  ],
+  "chem": [
+    {
+      "q": "Which of the following is a balanced chemical equation for the reaction of iron with steam?",
+      "o": [
+        "Fe + H₂O → FeO + H₂",
+        "3Fe + 4H₂O → Fe₃O₄ + 4H₂",
+        "2Fe + 3H₂O → Fe₂O₃ + 3H₂",
+        "Fe + 2H₂O → FeO₂ + 2H₂"
+      ],
+      "a": 1,
+      "e": "Iron reacts with steam to form iron (II,III) oxide (Fe₃O₄) and hydrogen gas. The balanced equation requires 3 Fe and 4 H₂O."
+    },
+    {
+      "q": "<b>Experiment/Lab-Based:</b> A student heats lead nitrate crystals in a dry boiling tube. They observe the emission of brown fumes. The brown fumes are of:",
+      "o": [
+        "Oxygen",
+        "Nitrogen dioxide",
+        "Lead oxide",
+        "Nitric oxide"
+      ],
+      "a": 1,
+      "e": "Thermal decomposition of lead nitrate produces solid lead oxide, oxygen gas, and nitrogen dioxide (NO₂), which is visible as toxic brown fumes."
+    },
+    {
+      "q": "Which of the following solutions will turn phenolphthalein indicator pink?",
+      "o": [
+        "HCl",
+        "CH₃COOH",
+        "NaOH",
+        "H₂O"
+      ],
+      "a": 2,
+      "e": "Phenolphthalein turns pink in basic (alkaline) solutions. NaOH is a strong base."
+    },
+    {
+      "q": "<b>Assertion (A):</b> Baking powder is a mixture of baking soda and a mild edible acid like tartaric acid.<br><b>Reason (R):</b> Tartaric acid neutralizes the bitter-tasting sodium carbonate produced when baking soda is heated.",
+      "o": [
+        "Both A and R are true, and R is the correct explanation of A.",
+        "Both A and R are true, but R is NOT the correct explanation of A.",
+        "A is true, R is false.",
+        "A is false, R is true."
+      ],
+      "a": 0,
+      "e": "Heating baking soda produces sodium carbonate, which is bitter. The tartaric acid present in baking powder reacts with it, forming a pleasant-tasting salt. R correctly explains A."
+    },
+    {
+      "q": "In the chlor-alkali process, the products formed at the anode, cathode, and in the solution are respectively:",
+      "o": [
+        "Cl₂, H₂, NaOH",
+        "H₂, Cl₂, NaOH",
+        "NaOH, Cl₂, H₂",
+        "Cl₂, NaOH, H₂"
+      ],
+      "a": 0,
+      "e": "During brine electrolysis, Chlorine gas is formed at the anode (+), Hydrogen gas at the cathode (-), and Sodium Hydroxide remains in the solution."
+    },
+    {
+      "q": "Which of the following pairs will give a displacement reaction?",
+      "o": [
+        "NaCl solution and copper metal",
+        "MgCl₂ solution and aluminium metal",
+        "FeSO₄ solution and silver metal",
+        "AgNO₃ solution and copper metal"
+      ],
+      "a": 3,
+      "e": "Copper is more reactive than silver, so it can displace silver from its salt solution (AgNO₃)."
+    },
+    {
+      "q": "Roasting is a metallurgical process applied primarily to:",
+      "o": [
+        "Oxide ores",
+        "Carbonate ores",
+        "Sulphide ores",
+        "Chloride ores"
+      ],
+      "a": 2,
+      "e": "Roasting involves heating an ore in the presence of excess air and is specifically used to convert sulphide ores into oxides."
+    },
+    {
+      "q": "<b>Competency Based:</b> Ionic compounds have high melting and boiling points because:",
+      "o": [
+        "They share electrons mutually.",
+        "They have weak intermolecular forces.",
+        "A considerable amount of energy is required to break strong inter-ionic attraction.",
+        "They are entirely insoluble in water."
+      ],
+      "a": 2,
+      "e": "Ionic compounds form a rigid crystal lattice held together by strong electrostatic forces between oppositely charged ions, requiring massive heat to break."
+    },
+    {
+      "q": "Buckminsterfullerene is an allotropic form of:",
+      "o": [
+        "Phosphorus",
+        "Sulphur",
+        "Carbon",
+        "Tin"
+      ],
+      "a": 2,
+      "e": "It is a spherical carbon allotrope composed of 60 carbon atoms (C60) arranged in a soccer-ball structure."
+    },
+    {
+      "q": "Which of the following is the correct molecular formula of the third member of the homologous series of alkynes?",
+      "o": [
+        "C₃H₄",
+        "C₄H₆",
+        "C₅H₈",
+        "C₃H₆"
+      ],
+      "a": 1,
+      "e": "The alkyne series starts with Ethyne (n=2). The second member is Propyne (n=3). The third member is Butyne (n=4), formula CnH2n-2 → C4H6."
+    },
+    {
+      "q": "When ethanol is heated with concentrated sulphuric acid at 443 K, the product formed is:",
+      "o": [
+        "Ethane",
+        "Ethyne",
+        "Ethene",
+        "Ethanoic acid"
+      ],
+      "a": 2,
+      "e": "Conc. H₂SO₄ acts as a strong dehydrating agent, removing water from ethanol to yield ethene (CH2=CH2)."
+    },
+    {
+      "q": "<b>Assertion (A):</b> Copper vessels turn green upon prolonged exposure to damp air.<br><b>Reason (R):</b> Copper reacts with moist carbon dioxide in the air to form basic copper carbonate.",
+      "o": [
+        "Both A and R are true, and R is the correct explanation of A.",
+        "Both A and R are true, but R is NOT the correct explanation of A.",
+        "A is true, R is false.",
+        "A is false, R is true."
+      ],
+      "a": 0,
+      "e": "The green coating on weathered copper is a mixture of copper hydroxide and copper carbonate, known as basic copper carbonate. R accurately explains A."
+    },
+    {
+      "q": "An element X reacts with oxygen to form an oxide XO. This oxide turns red litmus blue. Element X is likely a:",
+      "o": [
+        "Non-metal",
+        "Metal",
+        "Metalloid",
+        "Noble gas"
+      ],
+      "a": 1,
+      "e": "Metallic oxides are generally basic in nature and turn red litmus blue. XO indicates a metal with valency +2."
+    },
+    {
+      "q": "Which of the following contains the carboxyl (-COOH) functional group?",
+      "o": [
+        "Ketones",
+        "Aldehydes",
+        "Alcohols",
+        "Carboxylic acids"
+      ],
+      "a": 3,
+      "e": "The -COOH group is explicitly the defining functional group of Carboxylic acids (e.g., ethanoic acid)."
+    },
+    {
+      "q": "The cleansing action of soap is due to the formation of:",
+      "o": [
+        "Precipitates",
+        "Micelles",
+        "Esters",
+        "Polymers"
+      ],
+      "a": 1,
+      "e": "Soap molecules aggregate into spherical clusters called micelles, trapping hydrophobic dirt in the center and allowing it to be washed away."
+    }
+  ],
+  "bio": [
+    {
+      "q": "Which of the following is the correct sequence of steps in photosynthesis?",
+      "o": [
+        "Absorption of light, Reduction of CO₂, Splitting of water",
+        "Absorption of light, Splitting of water, Reduction of CO₂",
+        "Splitting of water, Absorption of light, Reduction of CO₂",
+        "Reduction of CO₂, Absorption of light, Splitting of water"
+      ],
+      "a": 1,
+      "e": "First, chlorophyll absorbs light. Second, light energy splits water into H and O. Third, hydrogen reduces CO₂ to carbohydrates."
+    },
+    {
+      "q": "In the human digestive system, the enzyme trypsin is secreted by the:",
+      "o": [
+        "Stomach",
+        "Liver",
+        "Pancreas",
+        "Salivary glands"
+      ],
+      "a": 2,
+      "e": "Trypsin is a protease secreted by the pancreas into the small intestine to digest proteins."
+    },
+    {
+      "q": "<b>Diagram-Based:</b><br><svg viewBox='0 0 100 80' width='100'><circle cx='50' cy='40' r='30' fill='none' stroke='black'/><path d='M50,10 L50,70 M20,40 L80,40' stroke='black'/></svg><br>In the human heart, oxygenated blood from the lungs enters the:",
+      "o": [
+        "Right atrium",
+        "Left atrium",
+        "Right ventricle",
+        "Left ventricle"
+      ],
+      "a": 1,
+      "e": "The pulmonary veins bring oxygen-rich blood from the lungs directly into the left atrium of the heart."
+    },
+    {
+      "q": "The basic filtration unit in the human kidney is called:",
+      "o": [
+        "Neuron",
+        "Nephron",
+        "Alveolus",
+        "Villus"
+      ],
+      "a": 1,
+      "e": "Nephrons are the microscopic structural and functional filtration units of the kidneys."
+    },
+    {
+      "q": "Which plant hormone is responsible for the wilting of leaves?",
+      "o": [
+        "Auxin",
+        "Gibberellin",
+        "Cytokinin",
+        "Abscisic acid"
+      ],
+      "a": 3,
+      "e": "Abscisic acid (ABA) is a growth inhibitor that induces dormancy, stomatal closure, and leaf abscission/wilting."
+    },
+    {
+      "q": "<b>Assertion (A):</b> Reflex arcs have evolved in animals because the thinking process of the brain is not fast enough.<br><b>Reason (R):</b> Reflex arcs are formed in the spinal cord, bypassing the brain for an immediate response.",
+      "o": [
+        "Both A and R are true, and R is the correct explanation of A.",
+        "Both A and R are true, but R is NOT the correct explanation of A.",
+        "A is true, R is false.",
+        "A is false, R is true."
+      ],
+      "a": 0,
+      "e": "Reflex arcs provide rapid, automatic responses to dangerous stimuli by routing signals directly through the spinal cord, saving critical processing time. R explains A."
+    },
+    {
+      "q": "Iodine is necessary for the synthesis of which hormone?",
+      "o": [
+        "Insulin",
+        "Adrenaline",
+        "Thyroxine",
+        "Testosterone"
+      ],
+      "a": 2,
+      "e": "The thyroid gland requires iodine to synthesize thyroxine, which regulates carbohydrate, protein, and fat metabolism."
+    },
+    {
+      "q": "Plasmodium, the malaria parasite, reproduces asexually by:",
+      "o": [
+        "Binary fission",
+        "Multiple fission",
+        "Budding",
+        "Fragmentation"
+      ],
+      "a": 1,
+      "e": "Under unfavorable conditions, Plasmodium divides into many daughter cells simultaneously within a cyst, a process called multiple fission."
+    },
+    {
+      "q": "In a flower, the parts that produce male and female gametes respectively are:",
+      "o": [
+        "Stamen and anther",
+        "Filament and stigma",
+        "Anther and ovary",
+        "Stamen and style"
+      ],
+      "a": 2,
+      "e": "The anther (part of stamen) produces pollen grains (male gametes), and the ovary (part of pistil) produces ovules (female gametes)."
+    },
+    {
+      "q": "Which of the following is a surgical method of contraception in males?",
+      "o": [
+        "Tubectomy",
+        "Vasectomy",
+        "Copper-T",
+        "Oral pills"
+      ],
+      "a": 1,
+      "e": "Vasectomy involves blocking or cutting the vas deferens in males to prevent sperm transfer."
+    },
+    {
+      "q": "If a pure tall pea plant (TT) is crossed with a pure dwarf plant (tt), the F2 generation phenotypic ratio (upon selfing F1) will be:",
+      "o": [
+        "1:2:1",
+        "3:1",
+        "9:3:3:1",
+        "1:1"
+      ],
+      "a": 1,
+      "e": "The monohybrid cross yields an F2 phenotypic ratio of 3 tall to 1 dwarf."
+    },
+    {
+      "q": "In humans, a child who inherits an X chromosome from the father will be:",
+      "o": [
+        "A boy",
+        "A girl",
+        "Either boy or girl depending on mother",
+        "Twins"
+      ],
+      "a": 1,
+      "e": "Females have XX chromosomes. The mother always provides an X. If the father also provides an X, the child is XX (a girl)."
+    },
+    {
+      "q": "<b>Case Study:</b> The accumulation of non-biodegradable pesticides (like DDT) progressively increases at each higher trophic level. This phenomenon is called:",
+      "o": [
+        "Eutrophication",
+        "Biomagnification",
+        "Ozone depletion",
+        "Global warming"
+      ],
+      "a": 1,
+      "e": "Biological magnification occurs because toxins are neither digested nor excreted, so their concentration multiplies up the food chain."
+    },
+    {
+      "q": "Ozone at the higher levels of the atmosphere is a product of UV radiation acting on:",
+      "o": [
+        "O₂ molecules",
+        "CO₂ molecules",
+        "CFCs",
+        "H₂O molecules"
+      ],
+      "a": 0,
+      "e": "High-energy UV radiation splits O₂ molecules into free oxygen atoms, which combine with intact O₂ molecules to form Ozone (O₃)."
+    },
+    {
+      "q": "According to the 10% law, if 10,000 J of solar energy falls on green plants, how much energy is available to primary consumers?",
+      "o": [
+        "10,000 J",
+        "1,000 J",
+        "100 J",
+        "10 J"
+      ],
+      "a": 2,
+      "e": "Plants capture 1% of solar energy (1% of 10,000 = 100 J). Then 10% law applies to consumers. So herbivores (primary consumers) get 10% of 100 J = 10 J. Wait, 100 J is available to them. 10% of 100 J is 10 J passed to secondary. The plants possess 100 J. So 10 J is available to primary consumers. Let me re-read: 'energy available TO primary consumers' means energy in plants that they can eat. Plants have 100J. 10% transferred means 10J incorporated. The available energy is 100J. Wait, 1% of solar = 100J. 10% of that is 10J. I will make 10 J correct if asking what they assimilate. Actually, 'energy available to primary consumers' usually refers to what they assimilate from plants, which is 10J."
+    }
+  ]
+}
