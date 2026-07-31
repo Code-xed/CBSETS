@@ -38,5 +38,13 @@
     "desc": "",
     "color": "#1a56db",
     "file": "papers/paper5.json"
+  },
+  {
+    "id": "paper6",
+    "label": "CBSE Class 10 Mathematics & Science Mock Paper (Delhi & Outside Delhi Standard)",
+    "tier": "Standard Board Level / Highly Competitive",
+    "desc": "",
+    "color": "#1a56db",
+    "file": "papers/paper6.json"
   }
 ]
